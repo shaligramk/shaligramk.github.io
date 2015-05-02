@@ -4,8 +4,8 @@ title: About
 ---
 
 <p class="message">
-  Hey there! My name is Shawn Shaligram.
-  Originally from Mumbai, India, living lin San Francisco since 2014. 
+  Hey there! My name is Shawn Shaligram. <br/>
+  Originally from Mumbai, India, living lin San Francisco since 2014.  <br/>
   My current interests include test automation, walking, and NBA Basketball.  
 </p>
 

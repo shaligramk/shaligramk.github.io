@@ -6,8 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Shawn
-tagline:          'Shaligram'
+title:            Shawn Shaligram
 description:      'Personal Blog on QA Automation'
 url:              http://shaligramk.github.io
 

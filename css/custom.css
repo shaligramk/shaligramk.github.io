@@ -1,0 +1,21 @@
+body{
+ 	border-top: #1D64F0 3px solid ;
+ }
+
+ button, .button {
+ 	color:black;
+ 	background-color: #fff;
+ }
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2875rem;
+}
+
+.top {
+	margin-top: 50px;
+}

@@ -1,21 +1,41 @@
-body{
- 	border-top: #1D64F0 3px solid ;
- }
+body {
+    border-top: #9B59B6 3px solid;
+    background: url(../img/highlight-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 
- button, .button {
- 	color:black;
- 	background-color: #fff;
- }
-
+button,
+.button {
+    color: black;
+}
 
 h1 {
     font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.2875rem;
+    font-size: 1.1rem;
 }
 
 .top {
-	margin-top: 50px;
+    margin-top: 50px;
+}
+
+.bio {
+    font-family: #2C3E50;
+}
+
+.project {
+    margin-top: 25px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family:"HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.bottom {
+    margin-bottom: 50px;
 }

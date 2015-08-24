@@ -1,28 +1,11 @@
 
-name: White Paper
+name: Shawn Shaligram
 markdown: redcarpet
 pygments: true
-url: http://vinitkumar.me/white-paper
+url: http://shaligramk.github.io
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
-logo:             
-disqus_shortname:
-# url: http://gotchacode.com
-#Comment out url when working locally to resolve base urls correctly
-#url:
-
-# Owner/author information
-owner:
-  name:           <your-name-here>
-  avatar:         <avatar-image-link>
-  email:          <your-email-address>
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  github:
-  stackexchange:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+description:     Personal Blog and Website of Shawn Shaligram | Mobile QA Engineer
+intro: Shawn Shaligram | Mobile QA Engineer
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:

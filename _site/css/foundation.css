@@ -93,8 +93,8 @@ img {
 .left {
   float: left !important; }
 
-.right {
-  float: right !important; }
+/*.right {
+  float: right !important; }*/
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -302,7 +302,7 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
+    padding-left: 2rem;    
     padding-right: 0.9375rem;
     float: left; }
 
@@ -1162,7 +1162,7 @@ button, .button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  padding: 1rem 2rem 1.0625rem 2rem;
+  padding: 1rem;
   font-size: 1rem;
 /*  background-color: #008CBA;
   border-color: #007095;*/

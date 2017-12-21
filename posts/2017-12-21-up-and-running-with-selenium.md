@@ -15,6 +15,8 @@ When you're building out a testing framework, it's important to think about how 
   - Tests should integrate with existing CI/CD Build Systems
   - Tests should be easy to write and maintain
 
+***
+
 ## A basic test suite
 
 One of the libraries I have used for a number of testing projects is [pytest](https://docs.pytest.org/en/latest/). It is the foundation of many testing frameworks and it offers:
@@ -24,6 +26,8 @@ One of the libraries I have used for a number of testing projects is [pytest](ht
 * Test collection and discovery
 * xUnit report output
 
+***
+
 ## Installation
 First, let's install the dependencies below. You can use a
 [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
@@ -32,6 +36,8 @@ First, let's install the dependencies below. You can use a
 * `pytest`
 * `selenium`
 * `simplejson`
+
+***
 
 ## Setup
 
@@ -51,13 +57,40 @@ Now, fire up your favorite text editor, and let's create an base test case with 
 
 Fixtures are wrappers around tests that are run before and after the test. In the above example, we startup a new firefox browser for each test and quit the browser when the test has finished. Even if the test fails, the teardown method will still be called.
 
+***
+
 ## Writing your test
 
+Here is an example of what your test might look like:
+
+    :::python
+    ...
+
+        import pytest
+
+
+        @pytest.mark.usefixtures('driver')
+        class TestGuineaPig(object):
+
+            def test_link(self, driver):
+            """
+            Verify page title change when link clicked
+            :return: None
+            """
+            driver.get('https://google.com/')
+            driver.find_element_by_id("header").click()
+
+            title = "Google"
+            assert title == driver.title
+
+***
 
 ## Page Object Model
 Page Object Model - A page object model is a design pattern which allows you to maintain selectors and page actions in one place rather than individual tests. Its main purpose is to enhance test maintenance and reducing code duplication.
 
-### Selectors
+***
+
+## Selectors
 
 The most difficult element of testing is writing robust selectors. Brittle selectors can break whenever slight changes occur in the DOM. Selectors should be:
 
@@ -72,7 +105,9 @@ at his [Meetup event page](http://www.meetup.com/seleniumsanfrancisco/events/101
 And here's a [comparison of CSS and XPath syntax](http://ejohn.org/blog/xpath-css-selectors/) from John Resig.
 Targeting sibling or parent elements are two situations where you cannot use CSS and need to use XPath.
 
-### Sauce Labs
+***
+
+## Sauce Labs
 
 Sauce Labs allows you to run your tests in the cloud on
 [over 150 platform/browser combinations](https://saucelabs.com/docs/platforms).
@@ -115,7 +150,9 @@ one we were using previously. Let's modify our module and test level fixtures:
 
     ...
 
-##### Cross-browser testing
+***
+
+## Cross-browser testing
 
 There are some advanced ways to do cross-browser testing, using a custom nose plugin and method decorators, but it's
 more trouble than it's worth. It's easier to just run the suite multiple times with a different configuration file. In
@@ -127,7 +164,9 @@ for once you start writing tests that interact with a lot of JavaScript and navi
 Look at [Selenium's own Jenkins instance](http://ci.seleniumhq.org:8080/) to understand how browsers may
 behave differently.
 
-##### Sauce Connect
+***
+
+## Sauce Connect
 You can even test against local, non-internet facing, environments using a
 [Sauce Connect tunnel](https://saucelabs.com/docs/connect). They are incredibly easy to use, just execute the .jar
 with your credentials. Some things to watch out for when using Sauce Connect:
@@ -139,7 +178,9 @@ things down quite a bit.
 * Only one tunnel can be active per account. If you need to tunnel to multiple environments,
 you should create [sub-accounts](https://saucelabs.com/docs/subaccounts) and manage credentials accordingly.
 
-##### Sauce API
+***
+
+## Sauce API
 
 Sauce Labs has a dashboard where you can view tests. If you want the dashboard to contain any meaningful data, do the following:
 
@@ -154,7 +195,9 @@ after the test has completed. I parse the xUnit report and use the API to comple
 and update the pass/fail status.
 See [job_update_sauce.py](https://github.com/danielhochman/basic_selenium_framework/blob/master/basic_selenium_framework/job_update_sauce.py).
 
-### Jenkins integration
+***
+
+## Jenkins integration
 
 [Jenkins](http://jenkins-ci.org/) is a great tool for automating the deployment process.
 Post-commit [git hooks](http://git-scm.com/book/ch7-3.html) can trigger a build in Jenkins
@@ -162,17 +205,16 @@ every time a developer pushes code. Tests should run as part the build.
 
 Jenkins also supports test reporting on the front-end from an xUnit test report. A nice graph shows pass, fail, and test volume history. Each test is visible from Jenkins built-in test browser.
 
-
-
 ***
-### Headless testing
+
+## Headless testing
 
 The [`PyVirtualDisplay`](https://pypi.python.org/pypi/PyVirtualDisplay)
 module allows you to wrap your program in `Xvfb` (a virtual X display). This is useful for running tests on your CI server (without Sauce), or locally if you don't want a ton of browser windows taking over your display. See [this post](http://coreygoldberg.blogspot.com/2011/06/python-headless-selenium-webdriver.html) from Corey Goldberg for more details, then add it to your test runner.
 
 ***
 
-### Coverage
+## Coverage
 
 There is always this question on how to E2E Testing needs to be done as compared to other types of testing (manual, unit, integration,etc). Despite the power and flexibility of Selenium, I think it's important to stay as close to the metal as possible. If Selenium tests are written with the goal of providing significant coverage, the resulting suite will be brittle. Unit testing should be the primary source of coverage.
 
@@ -181,7 +223,7 @@ An additional strategy is to appoint someone to decide where tests for newly dis
 ***
 
 
-### Going Further!
+## Going Further!
 
 Ask a question on the [user group](https://groups.google.com/forum/#!forum/selenium-users),
 in the IRC channel (#selenium on Freenode),

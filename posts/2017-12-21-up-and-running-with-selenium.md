@@ -77,7 +77,7 @@ Target | Selector example
 --- |:---
 Tag | div
 Direct child | table > tr
-Child or subchild | table td 
+Child or subchild | table td
 Id | #my_id
 Class | .myclass
 Attribute | [name=my_name]
@@ -96,23 +96,23 @@ one we were using previously. Let's modify our module and test level fixtures:
 
     :::python
     ...
-    
+
     def setup():
         config_json = """
         {
-            "endpoint": "http://duckduckgo.com",
+            "endpoint": "http://google.com",
             "timeout": 10,
             "use_sauce": true,
             "sauce_username": "my_username",
             "sauce_access_key": "accesske-y012-3456-789a-bcdef0123456",
-            "sauce_browser": "INTERNETEXPLORER"
+            "sauce_browser": "CHROME"
         }
         """
         global config
         config = json.loads(config_json)
-    
-    class SeleniumTestCase(object):
-        
+
+    class SeleniumBaseTestCase(object):
+
         def setup(self):
             if config['use_sauce']:
                 desired_capabilities = getattr(webdriver.DesiredCapabilities, config['sauce_browser'])
@@ -124,9 +124,9 @@ one we were using previously. Let's modify our module and test level fixtures:
                 )
             else:
                 self.driver = webdriver.Firefox()
-            
+
             self.driver.implicitly_wait(config['timeout'])
-    
+
     ...
 
 ##### Cross-browser testing
@@ -155,7 +155,7 @@ you should create [sub-accounts](https://saucelabs.com/docs/subaccounts) and man
 
 ##### Sauce API
 
-Sauce Labs has a dashboard where you can view tests. If you want the dashboard to contain any meaningful data:
+Sauce Labs has a dashboard where you can view tests. If you want the dashboard to contain any meaningful data, do the following:
 
 * Set the `name` parameter in `desired_capabilities` in the setup. Unfortunately a setup has no good way of
 knowing what method called it. I like to use `'%s.%s.?' % (__module__, __class__.__name__)`.
@@ -174,30 +174,15 @@ See [job_update_sauce.py](https://github.com/danielhochman/basic_selenium_framew
 Post-commit [git hooks](http://git-scm.com/book/ch7-3.html) can trigger a build in Jenkins
 every time a developer pushes code. Tests should run as part the build.
 
-Jenkins also supports test reporting on the front-end from an xUnit test report. A nice graph shows pass, fail,
-and test volume history. Each test is visible from Jenkins built-in test browser.
+Jenkins also supports test reporting on the front-end from an xUnit test report. A nice graph shows pass, fail, and test volume history. Each test is visible from Jenkins built-in test browser.
 
-nose has a built-in xUnit output plugin.
-Unfortunately, it [does not play nice](https://github.com/nose-devs/nose/issues/2)
-with multiprocessing. In fact, many plugins can break or behave unexpectedly when multiprocessing is enabled.
-[nose2](https://github.com/nose-devs/nose2) is supposed to remedy these issues. I evaluated it recently and it is not
-quite ready for primetime.
 
-Rosen Diankov developed a set of patched plugins to fix the issue and integrate better with Jenkins.
-You can find his plugins
-[embedded in one of his project repositories](https://github.com/rdiankov/openrave/tree/master/test/noseplugins)
-on GitHub. The patches also bring another desirable change to xUnit reports, output capture for all tests. By default,
-only failing test output is captured in the result file. In addition, it also manages to allow generated tests to run
-in parallel, which is not possible with the built-in `multiprocessing` plugin.
 
 ***
 ### Headless testing
 
 The [`PyVirtualDisplay`](https://pypi.python.org/pypi/PyVirtualDisplay)
-module allows you to wrap your program in `Xvfb` (a virtual X display). This is useful for running tests on your
-CI server (without Sauce), or locally if you don't want a ton of browser windows taking over your display. See
-[this post](http://coreygoldberg.blogspot.com/2011/06/python-headless-selenium-webdriver.html)
-from Corey Goldberg for more details, then add it to your test runner.
+module allows you to wrap your program in `Xvfb` (a virtual X display). This is useful for running tests on your CI server (without Sauce), or locally if you don't want a ton of browser windows taking over your display. See [this post](http://coreygoldberg.blogspot.com/2011/06/python-headless-selenium-webdriver.html) from Corey Goldberg for more details, then add it to your test runner.
 
 ***
 

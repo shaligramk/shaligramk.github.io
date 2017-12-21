@@ -3,6 +3,8 @@ layout: page
 title: Up and Running with Selenium
 ---
 
+# Up and Running with Selenium
+
 ## Design
 When you're building out a testing framework, it's important to think about how it's going to be used and who is going to be using it. Here are some things to consider:
 
@@ -53,35 +55,19 @@ Fixtures are wrappers around tests that are run before and after the test. In th
 
 
 ## Page Object Model
-Page Object Model - A page object model allows you to maintain selectors and page actions in one place rather than individual tests.
+Page Object Model - A page object model is a design pattern which allows you to maintain selectors and page actions in one place rather than individual tests. Its main purpose is to enhance test maintenance and reducing code duplication.
 
 ### Selectors
 
-The most difficult element of testing is writing robust selectors. Brittle selectors can break whenever slight
-changes occur in the DOM. Selectors should be:
+The most difficult element of testing is writing robust selectors. Brittle selectors can break whenever slight changes occur in the DOM. Selectors should be:
 
 * Unique
 * Descriptive
 * Short
 
-CSS selectors are preferred over XPath. They are faster (especially in IE) and more readable. Here's a
-[blog post and video](http://sauceio.com/index.php/2011/05/why-css-locators-are-the-way-to-go-vs-xpath/) from
-Santi of Sauce Labs about the advantages of CSS selectors. Not covered in Santi's post is the javascript-xpath
-library, which should yield significantly better XPath performance.
-This tip came from Dr. Wenhua Wang. You should be able to find his presentation with details on javascript-xpath
+CSS selectors are preferred over XPath. They are faster (especially in IE) and more readable. Here's a [blog post and video](http://sauceio.com/index.php/2011/05/why-css-locators-are-the-way-to-go-vs-xpath/) from Santi of Sauce Labs about the advantages of CSS selectors. Not covered in Santi's post is the javascript-xpath
+library, which should yield significantly better XPath performance. This tip came from Dr. Wenhua Wang. You should be able to find his presentation with details on javascript-xpath
 at his [Meetup event page](http://www.meetup.com/seleniumsanfrancisco/events/101087592/).
-
-Here's a quick guide to targeting elements using `find_element_by_css_selector()`:
-
-Target | Selector example
---- |:---
-Tag | div
-Direct child | table > tr
-Child or subchild | table td
-Id | #my_id
-Class | .myclass
-Attribute | [name=my_name]
-Chained Locators | a.my_class#my_id[name=my_name]
 
 And here's a [comparison of CSS and XPath syntax](http://ejohn.org/blog/xpath-css-selectors/) from John Resig.
 Targeting sibling or parent elements are two situations where you cannot use CSS and need to use XPath.

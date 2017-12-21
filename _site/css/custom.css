@@ -48,9 +48,5 @@ footer  {
 }
 
 #mainSection {
-    height: 100%;
-    display: table;
-    margin: auto;
-    display: table-cell;
-    vertical-align: middle;
+    margin:0 auto;
 }

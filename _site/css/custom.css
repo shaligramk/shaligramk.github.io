@@ -46,3 +46,11 @@ h3 {
 footer  {
     padding-bottom: 50px;
 }
+
+#mainSection {
+    height: 100%;
+    display: table;
+    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
+}

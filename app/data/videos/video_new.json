@@ -70,7 +70,15 @@
 { "series_id" : "20", "id" : "69", "link" : "4912-a20_069", "mp3" : "a20/069.mp3", "youtube" : "WktsCZLm1Kg", "teacher" : "正子老師", "name" : " 迷理無明(一)"},
 { "series_id" : "20", "id" : "70", "link" : "4913-a20_070", "mp3" : "a20/070.mp3", "youtube" : "DETNfr8wYIA", "teacher" : "正子老師", "name" : " 迷理無明(二)"},
 { "series_id" : "20", "id" : "71", "link" : "4944-a20_071", "mp3" : "a20/071.mp3", "youtube" : "uPnbrEYaZDQ", "teacher" : "正子老師", "name" : " 迷理無明(三)"},
-{ "series_id" : "20", "id" : "72", "link" : "4945-a20_072", "mp3" : "a20/072.mp3", "youtube" : "17MwT6BrDk8", "teacher" : "正子老師", "name" : " 迷理無明(四)"} 
+{ "series_id" : "20", "id" : "72", "link" : "4945-a20_072", "mp3" : "a20/072.mp3", "youtube" : "17MwT6BrDk8", "teacher" : "正子老師", "name" : " 迷理無明(四)"},
+{ "series_id" : "20", "id" : "73", "link" : "4946-a20_073", "mp3" : "a20/073.mp3", "youtube" : "DmI8QG5GO7o", "teacher" : "正翰老師", "name" : " 「取」函蓋三界有"},
+{ "series_id" : "20", "id" : "74", "link" : "4947-a20_074", "mp3" : "a20/074.mp3", "youtube" : "yPcOC0hNWH8", "teacher" : "正翰老師", "name" : " 四住地與無明住地"},
+{ "series_id" : "20", "id" : "75", "link" : "4948-a20_075", "mp3" : "a20/075.mp3", "youtube" : "0R66DmQBFZE", "teacher" : "正翰老師", "name" : " 四住地煩惱與無明住地煩惱(上)"},
+{ "series_id" : "20", "id" : "76", "link" : "4949-a20_076", "mp3" : "a20/076.mp3", "youtube" : "RenDBahL6_s", "teacher" : "正翰老師", "name" : " 四住地煩惱與無明住地煩惱(下)"},
+{ "series_id" : "20", "id" : "77", "link" : "4950-a20_077", "mp3" : "a20/077.mp3", "youtube" : "wr22C4W-yRs", "teacher" : "正元老師", "name" : " 上煩惱才是無漏業因"},
+{ "series_id" : "20", "id" : "78", "link" : "4951-a20_078", "mp3" : "a20/078.mp3", "youtube" : "k6f8LpV5XFc", "teacher" : "正元老師", "name" : " 變易生死階段所造非屬有漏業"},
+{ "series_id" : "20", "id" : "79", "link" : "4952-a20_079", "mp3" : "a20/079.mp3", "youtube" : "2ipvYOc8kcw", "teacher" : "正元老師", "name" : " 實義菩薩已分證佛菩提智"},
+{ "series_id" : "20", "id" : "80", "link" : "4953-a20_080", "mp3" : "a20/080.mp3", "youtube" : "w-o6dkqgCVI", "teacher" : "正元老師", "name" : " 最後身菩薩與佛地的差異"} 
 ,
  
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -144,5 +152,13 @@
 { "series_id" : "21", "id" : "69", "link" : "4932-a21_069", "mp3" : "a21/069.mp3", "youtube" : "mgyjczwGaG8", "teacher" : "正昌老師", "name" : " 阿賴耶識無「法執」(上)"},
 { "series_id" : "21", "id" : "70", "link" : "4933-a21_070", "mp3" : "a21/070.mp3", "youtube" : "kONfhpNGIJE", "teacher" : "正昌老師", "name" : " 阿賴耶識無「法執」(下)"},
 { "series_id" : "21", "id" : "71", "link" : "4964-a21_071", "mp3" : "a21/071.mp3", "youtube" : "PppTrvim8sU", "teacher" : "正昌老師", "name" : " 完整佛法是以阿賴耶識心體為中心"},
-{ "series_id" : "21", "id" : "72", "link" : "4965-a21_072", "mp3" : "a21/072.mp3", "youtube" : "mVFQMltgx78", "teacher" : "正昌老師", "name" : " 佛地真如不能外於阿賴耶識心體而可得證"} 
+{ "series_id" : "21", "id" : "72", "link" : "4965-a21_072", "mp3" : "a21/072.mp3", "youtube" : "mVFQMltgx78", "teacher" : "正昌老師", "name" : " 佛地真如不能外於阿賴耶識心體而可得證"},
+{ "series_id" : "21", "id" : "73", "link" : "4966-a21_073", "mp3" : "a21/073.mp3", "youtube" : "9ZncK6WEdic", "teacher" : "正圜老師", "name" : " 識蘊真義總結(上)"},
+{ "series_id" : "21", "id" : "74", "link" : "4967-a21_074", "mp3" : "a21/074.mp3", "youtube" : "k675lARjx3k", "teacher" : "正圜老師", "name" : " 識蘊真義總結(下)"},
+{ "series_id" : "21", "id" : "75", "link" : "4968-a21_075", "mp3" : "a21/075.mp3", "youtube" : "VRt8iFAnVu0", "teacher" : "正圜老師", "name" : " 如來藏心體中含藏七識心等染汙種子(上)"},
+{ "series_id" : "21", "id" : "76", "link" : "4969-a21_076", "mp3" : "a21/076.mp3", "youtube" : "iQhel2ji0KQ", "teacher" : "正圜老師", "name" : " 如來藏心體中含藏七識心等染汙種子(下)"},
+{ "series_id" : "21", "id" : "77", "link" : "4970-a21_077", "mp3" : "a21/077.mp3", "youtube" : "UWNTQ0RtQYw", "teacher" : "正彝老師", "name" : " 六識及意根皆為如來藏所出生"},
+{ "series_id" : "21", "id" : "78", "link" : "4971-a21_078", "mp3" : "a21/078.mp3", "youtube" : "AIbUaJ4DVHM", "teacher" : "正彝老師", "name" : " 意根為識蘊運作之俱有依根"},
+{ "series_id" : "21", "id" : "79", "link" : "4972-a21_079", "mp3" : "a21/079.mp3", "youtube" : "bfO-6XLYDnY", "teacher" : "正彝老師", "name" : " 所言識者，即六識身等，是名識蘊"},
+{ "series_id" : "21", "id" : "80", "link" : "4973-a21_080", "mp3" : "a21/080.mp3", "youtube" : "bTEFmkGi1Sw", "teacher" : "正彝老師", "name" : " 八、九識並存的過失"} 
 ]

@@ -81,5 +81,7 @@
 { "series_id" : 21, "id" : 80, "link" : "4973-a21_080", "mp3" : "a21/080.mp3", "youtube" : "bTEFmkGi1Sw", "teacher" : "正彝老師", "name" : " 八、九識並存的過失"},
 { "series_id" : 21, "id" : 81, "link" : "5004-a21_081", "mp3" : "a21/081.mp3", "youtube" : "9NiS7FDZjaU", "teacher" : "正偉老師", "name" : " 識蘊的正說是六識身"},
 { "series_id" : 21, "id" : 82, "link" : "5005-a21_082", "mp3" : "a21/082.mp3", "youtube" : "mwr7r5TEWt0", "teacher" : "正偉老師", "name" : " 第七末那識與識蘊的關係"},
-{ "series_id" : 21, "id" : 83, "link" : "5006-a21_083", "mp3" : "a21/083.mp3", "youtube" : "yafdfj-r_vc", "teacher" : "正偉老師", "name" : " 八識心王的相屬關係"}
+{ "series_id" : 21, "id" : 83, "link" : "5006-a21_083", "mp3" : "a21/083.mp3", "youtube" : "yafdfj-r_vc", "teacher" : "正偉老師", "name" : " 八識心王的相屬關係"},
+{ "series_id" : 21, "id" : 84, "link" : "5007-a21_084", "mp3" : "a21/084.mp3", "youtube" : "Sw3WuLQoweI", "teacher" : "正偉老師", "name" : " 第八識非識蘊"},
+{ "series_id" : 21, "id" : 85, "link" : "5008-a21_085", "mp3" : "a21/085.mp3", "youtube" : "YafyuhkIJ0o", "teacher" : "正偉老師", "name" : " 安慧論師未證第八識"}
 ]

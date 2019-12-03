@@ -83,5 +83,9 @@
 { "series_id" : 21, "id" : 82, "link" : "5005-a21_082", "mp3" : "a21/082.mp3", "youtube" : "mwr7r5TEWt0", "teacher" : "正偉老師", "name" : " 第七末那識與識蘊的關係"},
 { "series_id" : 21, "id" : 83, "link" : "5006-a21_083", "mp3" : "a21/083.mp3", "youtube" : "yafdfj-r_vc", "teacher" : "正偉老師", "name" : " 八識心王的相屬關係"},
 { "series_id" : 21, "id" : 84, "link" : "5007-a21_084", "mp3" : "a21/084.mp3", "youtube" : "Sw3WuLQoweI", "teacher" : "正偉老師", "name" : " 第八識非識蘊"},
-{ "series_id" : 21, "id" : 85, "link" : "5008-a21_085", "mp3" : "a21/085.mp3", "youtube" : "YafyuhkIJ0o", "teacher" : "正偉老師", "name" : " 安慧論師未證第八識"}
+{ "series_id" : 21, "id" : 85, "link" : "5008-a21_085", "mp3" : "a21/085.mp3", "youtube" : "YafyuhkIJ0o", "teacher" : "正偉老師", "name" : " 安慧論師未證第八識"},
+{ "series_id" : 21, "id" : 86, "link" : "5009-a21_086", "mp3" : "a21/086.mp3", "youtube" : "8Uzip9834yw", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(一)"},
+{ "series_id" : 21, "id" : 87, "link" : "5010-a21_087", "mp3" : "a21/087.mp3", "youtube" : "u_3LTSbP69o", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(二)"},
+{ "series_id" : 21, "id" : 88, "link" : "5011-a21_088", "mp3" : "a21/088.mp3", "youtube" : "ztQXFJySHoU", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(三)"},
+{ "series_id" : 21, "id" : 89, "link" : "5012-a21_089", "mp3" : "a21/089.mp3", "youtube" : "COG8F0GcnJY", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(四)"}
 ]

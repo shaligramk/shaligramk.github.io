@@ -87,7 +87,10 @@
 { "series_id" : "20", "id" : "86", "link" : "4989-a20_086", "mp3" : "a20/086.mp3", "youtube" : "nPPhHhiQ9uk", "teacher" : "正才老師", "name" : " 三乘法的根源實相才是平等法(上)"},
 { "series_id" : "20", "id" : "87", "link" : "4990-a20_087", "mp3" : "a20/087.mp3", "youtube" : "1HJdz9sSg_k", "teacher" : "正才老師", "name" : " 三乘法的根源實相才是平等法(下)"},
 { "series_id" : "20", "id" : "88", "link" : "4991-a20_088", "mp3" : "a20/088.mp3", "youtube" : "eBlG2EQ1L-E", "teacher" : "正才老師", "name" : " 三乘菩提的智慧、解脫並非平等"},
-{ "series_id" : "20", "id" : "89", "link" : "4992-a20_089", "mp3" : "a20/089.mp3", "youtube" : "X3VeuW5ICKo", "teacher" : "正才老師", "name" : " 三乘菩提清淨的差別"}
+{ "series_id" : "20", "id" : "89", "link" : "4992-a20_089", "mp3" : "a20/089.mp3", "youtube" : "X3VeuW5ICKo", "teacher" : "正才老師", "name" : " 三乘菩提清淨的差別"},
+{ "series_id" : "20", "id" : "90", "link" : "4993-a20_090", "mp3" : "a20/090.mp3", "youtube" : "ToxFKrGcyGI", "teacher" : "正才老師", "name" : " 再說三德"},
+{ "series_id" : "20", "id" : "91", "link" : "5024-a20_091", "mp3" : "a20/091.mp3", "youtube" : "WkPpewSHem0", "teacher" : "正雯老師", "name" : " 什麼是解脫？"},
+{ "series_id" : "20", "id" : "92", "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -178,5 +181,8 @@
 { "series_id" : "21", "id" : "86", "link" : "5009-a21_086", "mp3" : "a21/086.mp3", "youtube" : "8Uzip9834yw", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(一)"},
 { "series_id" : "21", "id" : "87", "link" : "5010-a21_087", "mp3" : "a21/087.mp3", "youtube" : "u_3LTSbP69o", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(二)"},
 { "series_id" : "21", "id" : "88", "link" : "5011-a21_088", "mp3" : "a21/088.mp3", "youtube" : "ztQXFJySHoU", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(三)"},
-{ "series_id" : "21", "id" : "89", "link" : "5012-a21_089", "mp3" : "a21/089.mp3", "youtube" : "COG8F0GcnJY", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(四)"}
+{ "series_id" : "21", "id" : "89", "link" : "5012-a21_089", "mp3" : "a21/089.mp3", "youtube" : "COG8F0GcnJY", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(四)"},
+{ "series_id" : "21", "id" : "90", "link" : "5013-a21_090", "mp3" : "a21/090.mp3", "youtube" : "V7XXnYhFXsw", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(五)"},
+{ "series_id" : "21", "id" : "91", "link" : "5042-a21_091", "mp3" : "a21/091.mp3", "youtube" : "52UQ3L2QVq4", "teacher" : "正益老師", "name" : " 五蘊與無為匯歸阿賴耶識"},
+{ "series_id" : "21", "id" : "92", "link" : "5043-a21_092", "mp3" : "a21/092.mp3", "youtube" : "CXm3NrW4s3w", "teacher" : "正益老師", "name" : " 涅槃與智慧依阿賴耶識而有"}
 ]

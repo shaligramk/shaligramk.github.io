@@ -92,5 +92,7 @@
 { "series_id" : 20, "id" : 89, "link" : "4992-a20_089", "mp3" : "a20/089.mp3", "youtube" : "X3VeuW5ICKo", "teacher" : "正才老師", "name" : " 三乘菩提清淨的差別"},
 { "series_id" : 20, "id" : 90, "link" : "4993-a20_090", "mp3" : "a20/090.mp3", "youtube" : "ToxFKrGcyGI", "teacher" : "正才老師", "name" : " 再說三德"},
 { "series_id" : 20, "id" : 91, "link" : "5024-a20_091", "mp3" : "a20/091.mp3", "youtube" : "WkPpewSHem0", "teacher" : "正雯老師", "name" : " 什麼是解脫？"},
-{ "series_id" : 20, "id" : 92, "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"}
+{ "series_id" : 20, "id" : 92, "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"},
+{ "series_id" : 20, "id" : 93, "link" : "5026-a20_093", "mp3" : "a20/093.mp3", "youtube" : "MEGIdAaq8BU", "teacher" : "正雯老師", "name" : " 什麼是無明住地？"},
+{ "series_id" : 20, "id" : 94, "link" : "5103-a20_094", "mp3" : "a20/094.mp3", "youtube" : "tpTVoFXqY_Q", "teacher" : "正雯老師", "name" : " 如何修證三果？"}
 ]

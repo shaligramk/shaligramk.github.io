@@ -90,7 +90,9 @@
 { "series_id" : "20", "id" : "89", "link" : "4992-a20_089", "mp3" : "a20/089.mp3", "youtube" : "X3VeuW5ICKo", "teacher" : "正才老師", "name" : " 三乘菩提清淨的差別"},
 { "series_id" : "20", "id" : "90", "link" : "4993-a20_090", "mp3" : "a20/090.mp3", "youtube" : "ToxFKrGcyGI", "teacher" : "正才老師", "name" : " 再說三德"},
 { "series_id" : "20", "id" : "91", "link" : "5024-a20_091", "mp3" : "a20/091.mp3", "youtube" : "WkPpewSHem0", "teacher" : "正雯老師", "name" : " 什麼是解脫？"},
-{ "series_id" : "20", "id" : "92", "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"}
+{ "series_id" : "20", "id" : "92", "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"},
+{ "series_id" : "20", "id" : "93", "link" : "5026-a20_093", "mp3" : "a20/093.mp3", "youtube" : "MEGIdAaq8BU", "teacher" : "正雯老師", "name" : " 什麼是無明住地？"},
+{ "series_id" : "20", "id" : "94", "link" : "5103-a20_094", "mp3" : "a20/094.mp3", "youtube" : "tpTVoFXqY_Q", "teacher" : "正雯老師", "name" : " 如何修證三果？"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -184,5 +186,7 @@
 { "series_id" : "21", "id" : "89", "link" : "5012-a21_089", "mp3" : "a21/089.mp3", "youtube" : "COG8F0GcnJY", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(四)"},
 { "series_id" : "21", "id" : "90", "link" : "5013-a21_090", "mp3" : "a21/090.mp3", "youtube" : "V7XXnYhFXsw", "teacher" : "正鈞老師", "name" : " 否定有阿賴耶識會怎麼樣？(五)"},
 { "series_id" : "21", "id" : "91", "link" : "5042-a21_091", "mp3" : "a21/091.mp3", "youtube" : "52UQ3L2QVq4", "teacher" : "正益老師", "name" : " 五蘊與無為匯歸阿賴耶識"},
-{ "series_id" : "21", "id" : "92", "link" : "5043-a21_092", "mp3" : "a21/092.mp3", "youtube" : "CXm3NrW4s3w", "teacher" : "正益老師", "name" : " 涅槃與智慧依阿賴耶識而有"}
+{ "series_id" : "21", "id" : "92", "link" : "5043-a21_092", "mp3" : "a21/092.mp3", "youtube" : "CXm3NrW4s3w", "teacher" : "正益老師", "name" : " 涅槃與智慧依阿賴耶識而有"},
+{ "series_id" : "21", "id" : "93", "link" : "5044-a21_093", "mp3" : "a21/093.mp3", "youtube" : "5L_CnLWH-Gc", "teacher" : "正益老師", "name" : " 真如之辨"},
+{ "series_id" : "21", "id" : "94", "link" : "5045-a21_094", "mp3" : "a21/094.mp3", "youtube" : "g-Mk4pODhUU", "teacher" : "正益老師", "name" : " 對佛的信受與恭敬"}
 ]

@@ -92,7 +92,10 @@
 { "series_id" : "20", "id" : "91", "link" : "5024-a20_091", "mp3" : "a20/091.mp3", "youtube" : "WkPpewSHem0", "teacher" : "正雯老師", "name" : " 什麼是解脫？"},
 { "series_id" : "20", "id" : "92", "link" : "5025-a20_092", "mp3" : "a20/092.mp3", "youtube" : "eR6I12JQBSU", "teacher" : "正雯老師", "name" : " 滅相不滅的真相"},
 { "series_id" : "20", "id" : "93", "link" : "5026-a20_093", "mp3" : "a20/093.mp3", "youtube" : "MEGIdAaq8BU", "teacher" : "正雯老師", "name" : " 什麼是無明住地？"},
-{ "series_id" : "20", "id" : "94", "link" : "5103-a20_094", "mp3" : "a20/094.mp3", "youtube" : "tpTVoFXqY_Q", "teacher" : "正雯老師", "name" : " 如何修證三果？"}
+{ "series_id" : "20", "id" : "94", "link" : "5103-a20_094", "mp3" : "a20/094.mp3", "youtube" : "tpTVoFXqY_Q", "teacher" : "正雯老師", "name" : " 如何修證三果？"},
+{ "series_id" : "20", "id" : "95", "link" : "5027-a20_095", "mp3" : "a20/095.mp3", "youtube" : "Pvf7o5bAmfY", "teacher" : "正雯老師", "name" : " 如何成佛？"},
+{ "series_id" : "20", "id" : "96", "link" : "5028-a20_096", "mp3" : "a20/096.mp3", "youtube" : "L0pcvhywJc0", "teacher" : "正鈞老師", "name" : " 三乘菩提與三士道─不應以解脫道來取代佛菩提道 (一)"},
+{ "series_id" : "20", "id" : "97", "link" : "5029-a20_097", "mp3" : "a20/097.mp3", "youtube" : "lWGGvQhfwGU", "teacher" : "正鈞老師", "name" : " 三乘菩提與三士道─不應以解脫道來取代佛菩提道(二)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -188,5 +191,8 @@
 { "series_id" : "21", "id" : "91", "link" : "5042-a21_091", "mp3" : "a21/091.mp3", "youtube" : "52UQ3L2QVq4", "teacher" : "正益老師", "name" : " 五蘊與無為匯歸阿賴耶識"},
 { "series_id" : "21", "id" : "92", "link" : "5043-a21_092", "mp3" : "a21/092.mp3", "youtube" : "CXm3NrW4s3w", "teacher" : "正益老師", "name" : " 涅槃與智慧依阿賴耶識而有"},
 { "series_id" : "21", "id" : "93", "link" : "5044-a21_093", "mp3" : "a21/093.mp3", "youtube" : "5L_CnLWH-Gc", "teacher" : "正益老師", "name" : " 真如之辨"},
-{ "series_id" : "21", "id" : "94", "link" : "5045-a21_094", "mp3" : "a21/094.mp3", "youtube" : "g-Mk4pODhUU", "teacher" : "正益老師", "name" : " 對佛的信受與恭敬"}
+{ "series_id" : "21", "id" : "94", "link" : "5045-a21_094", "mp3" : "a21/094.mp3", "youtube" : "g-Mk4pODhUU", "teacher" : "正益老師", "name" : " 對佛的信受與恭敬"},
+{ "series_id" : "21", "id" : "95", "link" : "5046-a21_095", "mp3" : "a21/095.mp3", "youtube" : "kyk-kg-IaIk", "teacher" : "正益老師", "name" : " 萬法匯歸阿賴耶識"},
+{ "series_id" : "21", "id" : "96", "link" : "5047-a21_096", "mp3" : "a21/096.mp3", "youtube" : "afe_i0fYysU", "teacher" : "正超老師", "name" : " 佛地之四智圓明"},
+{ "series_id" : "21", "id" : "97", "link" : "5048-a21_097", "mp3" : "a21/097.mp3", "youtube" : "ZwV-K106hjs", "teacher" : "正超老師", "name" : " 法身即是阿賴耶識心體"}
 ]

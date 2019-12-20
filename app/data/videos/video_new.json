@@ -99,7 +99,8 @@
 { "series_id" : "20", "id" : "98", "link" : "5030-a20_098", "mp3" : "a20/098.mp3", "youtube" : "pG4hz4ZSsHk", "teacher" : "正鈞老師", "name" : " 三乘菩提與三士道─不應以解脫道來取代佛菩提道(三)"},
 { "series_id" : "20", "id" : "99", "link" : "5031-a20_099", "mp3" : "a20/099.mp3", "youtube" : "fCw0YRzOnZo", "teacher" : "正鈞老師", "name" : " 三乘菩提與三士道─不應以解脫道來取代佛菩提道(四)"},
 { "series_id" : "20", "id" : "100", "link" : "5032-a20_100", "mp3" : "a20/100.mp3", "youtube" : "aMY4NOVG8Bg", "teacher" : "正鈞老師", "name" : " 三乘菩提與三士道─不應以解脫道來取代佛菩提道(五)"},
-{ "series_id" : "20", "id" : "101", "link" : "5062-a20_101", "mp3" : "a20/101.mp3", "youtube" : "2XLohIdgN_A", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(一)"}
+{ "series_id" : "20", "id" : "101", "link" : "5062-a20_101", "mp3" : "a20/101.mp3", "youtube" : "2XLohIdgN_A", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(一)"},
+{ "series_id" : "20", "id" : "102", "link" : "5063-a20_102", "mp3" : "a20/102.mp3", "youtube" : "1p-ACvDxNY0", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(二)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -202,5 +203,6 @@
 { "series_id" : "21", "id" : "98", "link" : "5049-a21_098", "mp3" : "a21/098.mp3", "youtube" : "mjZaohUWD-Y", "teacher" : "正超老師", "name" : " 二乘及大乘之生、法空觀"},
 { "series_id" : "21", "id" : "99", "link" : "5050-a21_099", "mp3" : "a21/099.mp3", "youtube" : "f2QQ-7Y8jDY", "teacher" : "正超老師", "name" : " 阿賴耶識是萬法之本源"},
 { "series_id" : "21", "id" : "100", "link" : "5051-a21_100", "mp3" : "a21/100.mp3", "youtube" : "XuTejZr8_Zs", "teacher" : "正超老師", "name" : " 禪宗諸祖之見道即是阿賴耶識"},
-{ "series_id" : "21", "id" : "101", "link" : "5082-a21_101", "mp3" : "a21/101.mp3", "youtube" : "KOT1ZfwDS6Y", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(上)"}
+{ "series_id" : "21", "id" : "101", "link" : "5082-a21_101", "mp3" : "a21/101.mp3", "youtube" : "KOT1ZfwDS6Y", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(上)"},
+{ "series_id" : "21", "id" : "102", "link" : "5083-a21_102", "mp3" : "a21/102.mp3", "youtube" : "xmscR4-BWtw", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(下)"}
 ]

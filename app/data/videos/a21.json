@@ -99,5 +99,6 @@
 { "series_id" : 21, "id" : 98, "link" : "5049-a21_098", "mp3" : "a21/098.mp3", "youtube" : "mjZaohUWD-Y", "teacher" : "正超老師", "name" : " 二乘及大乘之生、法空觀"},
 { "series_id" : 21, "id" : 99, "link" : "5050-a21_099", "mp3" : "a21/099.mp3", "youtube" : "f2QQ-7Y8jDY", "teacher" : "正超老師", "name" : " 阿賴耶識是萬法之本源"},
 { "series_id" : 21, "id" : 100, "link" : "5051-a21_100", "mp3" : "a21/100.mp3", "youtube" : "XuTejZr8_Zs", "teacher" : "正超老師", "name" : " 禪宗諸祖之見道即是阿賴耶識"},
-{ "series_id" : 21, "id" : 101, "link" : "5082-a21_101", "mp3" : "a21/101.mp3", "youtube" : "KOT1ZfwDS6Y", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(上)"}
+{ "series_id" : 21, "id" : 101, "link" : "5082-a21_101", "mp3" : "a21/101.mp3", "youtube" : "KOT1ZfwDS6Y", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(上)"},
+{ "series_id" : 21, "id" : 102, "link" : "5083-a21_102", "mp3" : "a21/102.mp3", "youtube" : "xmscR4-BWtw", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(下)"}
 ]

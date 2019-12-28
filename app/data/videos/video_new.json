@@ -103,7 +103,9 @@
 { "series_id" : "20", "id" : "102", "link" : "5063-a20_102", "mp3" : "a20/102.mp3", "youtube" : "1p-ACvDxNY0", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(二)"},
 { "series_id" : "20", "id" : "103", "link" : "5064-a20_103", "mp3" : "a20/103.mp3", "youtube" : "kUGV0KNDhLQ", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(三)"},
 { "series_id" : "20", "id" : "104", "link" : "5065-a20_104", "mp3" : "a20/104.mp3", "youtube" : "AcwyxgELEKM", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(四)"},
-{ "series_id" : "20", "id" : "105", "link" : "5066-a20_105", "mp3" : "a20/105.mp3", "youtube" : "A2mu_bT8Ero", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(五) "}
+{ "series_id" : "20", "id" : "105", "link" : "5066-a20_105", "mp3" : "a20/105.mp3", "youtube" : "A2mu_bT8Ero", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(五) "},
+{ "series_id" : "20", "id" : "106", "link" : "5067-a20_106", "mp3" : "a20/106.mp3", "youtube" : "dEV5uueGtgE", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(一)"},
+{ "series_id" : "20", "id" : "107", "link" : "5068-a20_107", "mp3" : "a20/107.mp3", "youtube" : "_dIWKnvqFmY", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(二)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -201,7 +203,6 @@
 { "series_id" : "21", "id" : "93", "link" : "5044-a21_093", "mp3" : "a21/093.mp3", "youtube" : "5L_CnLWH-Gc", "teacher" : "正益老師", "name" : " 真如之辨"},
 { "series_id" : "21", "id" : "94", "link" : "5045-a21_094", "mp3" : "a21/094.mp3", "youtube" : "g-Mk4pODhUU", "teacher" : "正益老師", "name" : " 對佛的信受與恭敬"},
 { "series_id" : "21", "id" : "95", "link" : "5046-a21_095", "mp3" : "a21/095.mp3", "youtube" : "kyk-kg-IaIk", "teacher" : "正益老師", "name" : " 萬法匯歸阿賴耶識"},
-{ "series_id" : "21", "id" : "96", "link" : "5047-a21_096", "mp3" : "a21/096.mp3", "youtube" : "afe_i0fYysU", "teacher" : "正超老師", "name" : " 佛地之四智圓明"},
 { "series_id" : "21", "id" : "97", "link" : "5048-a21_097", "mp3" : "a21/097.mp3", "youtube" : "ZwV-K106hjs", "teacher" : "正超老師", "name" : " 法身即是阿賴耶識心體"},
 { "series_id" : "21", "id" : "98", "link" : "5049-a21_098", "mp3" : "a21/098.mp3", "youtube" : "mjZaohUWD-Y", "teacher" : "正超老師", "name" : " 二乘及大乘之生、法空觀"},
 { "series_id" : "21", "id" : "99", "link" : "5050-a21_099", "mp3" : "a21/099.mp3", "youtube" : "f2QQ-7Y8jDY", "teacher" : "正超老師", "name" : " 阿賴耶識是萬法之本源"},
@@ -210,5 +211,7 @@
 { "series_id" : "21", "id" : "102", "link" : "5083-a21_102", "mp3" : "a21/102.mp3", "youtube" : "xmscR4-BWtw", "teacher" : "正莉老師", "name" : " 表相歸依與實義歸依(下)"},
 { "series_id" : "21", "id" : "103", "link" : "5084-a21_103", "mp3" : "a21/103.mp3", "youtube" : "l--WpZZCFSM", "teacher" : "正莉老師", "name" : " 第八識如來藏阿賴耶識"},
 { "series_id" : "21", "id" : "104", "link" : "5085-a21_104", "mp3" : "a21/104.mp3", "youtube" : "yN3306a4-xw", "teacher" : "正莉老師", "name" : " 大乘真見道與相見道(上)"},
-{ "series_id" : "21", "id" : "105", "link" : "5086-a21_105", "mp3" : "a21/105.mp3", "youtube" : "4_qIgdNkCXg", "teacher" : "正莉老師", "name" : " 大乘真見道與相見道(下)"}
+{ "series_id" : "21", "id" : "105", "link" : "5086-a21_105", "mp3" : "a21/105.mp3", "youtube" : "4_qIgdNkCXg", "teacher" : "正莉老師", "name" : " 大乘真見道與相見道(下)"},
+{ "series_id" : "21", "id" : "106", "link" : "5087-a21_106", "mp3" : "a21/106.mp3", "youtube" : "Xp0WBf-ts6k", "teacher" : "正國老師", "name" : " 真相識阿賴耶識與現識意根"},
+{ "series_id" : "21", "id" : "107", "link" : "5088-a21_107", "mp3" : "a21/107.mp3", "youtube" : "E14vwGob1gI", "teacher" : "正國老師", "name" : " 轉依第八識之真如法性"}
 ]

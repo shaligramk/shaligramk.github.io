@@ -106,7 +106,9 @@
 { "series_id" : "20", "id" : "105", "link" : "5066-a20_105", "mp3" : "a20/105.mp3", "youtube" : "A2mu_bT8Ero", "teacher" : "正光老師", "name" : " 無明住地的上煩惱(五) "},
 { "series_id" : "20", "id" : "106", "link" : "5067-a20_106", "mp3" : "a20/106.mp3", "youtube" : "dEV5uueGtgE", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(一)"},
 { "series_id" : "20", "id" : "107", "link" : "5068-a20_107", "mp3" : "a20/107.mp3", "youtube" : "_dIWKnvqFmY", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(二)"},
-{ "series_id" : "20", "id" : "108", "link" : "5069-a20_108", "mp3" : "a20/108.mp3", "youtube" : "09DGbxDPNfE", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(三)"}
+{ "series_id" : "20", "id" : "108", "link" : "5069-a20_108", "mp3" : "a20/108.mp3", "youtube" : "09DGbxDPNfE", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(三)"},
+{ "series_id" : "20", "id" : "109", "link" : "5070-a20_109", "mp3" : "a20/109.mp3", "youtube" : "TkcvNsxMWRo", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(四)"},
+{ "series_id" : "20", "id" : "110", "link" : "5071-a20_110", "mp3" : "a20/110.mp3", "youtube" : "6dpyyi9XiJA", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(五)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -216,5 +218,7 @@
 { "series_id" : "21", "id" : "105", "link" : "5086-a21_105", "mp3" : "a21/105.mp3", "youtube" : "4_qIgdNkCXg", "teacher" : "正莉老師", "name" : " 大乘真見道與相見道(下)"},
 { "series_id" : "21", "id" : "106", "link" : "5087-a21_106", "mp3" : "a21/106.mp3", "youtube" : "Xp0WBf-ts6k", "teacher" : "正國老師", "name" : " 真相識阿賴耶識與現識意根"},
 { "series_id" : "21", "id" : "107", "link" : "5088-a21_107", "mp3" : "a21/107.mp3", "youtube" : "E14vwGob1gI", "teacher" : "正國老師", "name" : " 轉依第八識之真如法性"},
-{ "series_id" : "21", "id" : "108", "link" : "5090-a21_108", "mp3" : "a21/108.mp3", "youtube" : "lvKlwmB8ZGY", "teacher" : "正國老師", "name" : " 五利使"}
+{ "series_id" : "21", "id" : "108", "link" : "5090-a21_108", "mp3" : "a21/108.mp3", "youtube" : "lvKlwmB8ZGY", "teacher" : "正國老師", "name" : " 五利使"},
+{ "series_id" : "21", "id" : "109", "link" : "5091-a21_109", "mp3" : "a21/109.mp3", "youtube" : "omHb97CNyDo", "teacher" : "正國老師", "name" : " 六十二外道見"},
+{ "series_id" : "21", "id" : "110", "link" : "5092-a21_110", "mp3" : "a21/110.mp3", "youtube" : "qDOVc3J1Rvc", "teacher" : "正國老師", "name" : " 外道對涅槃之誤解"}
 ]

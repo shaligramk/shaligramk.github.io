@@ -110,5 +110,7 @@
 { "series_id" : 20, "id" : 107, "link" : "5068-a20_107", "mp3" : "a20/107.mp3", "youtube" : "_dIWKnvqFmY", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(二)"},
 { "series_id" : 20, "id" : 108, "link" : "5069-a20_108", "mp3" : "a20/108.mp3", "youtube" : "09DGbxDPNfE", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(三)"},
 { "series_id" : 20, "id" : 109, "link" : "5070-a20_109", "mp3" : "a20/109.mp3", "youtube" : "TkcvNsxMWRo", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(四)"},
-{ "series_id" : 20, "id" : 110, "link" : "5071-a20_110", "mp3" : "a20/110.mp3", "youtube" : "6dpyyi9XiJA", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(五)"}
+{ "series_id" : 20, "id" : 110, "link" : "5071-a20_110", "mp3" : "a20/110.mp3", "youtube" : "6dpyyi9XiJA", "teacher" : "正村老師", "name" : " 上煩惱與下煩惱(五)"},
+{ "series_id" : 20, "id" : 111, "link" : "5104-a20_111", "mp3" : "a20/111.mp3", "youtube" : "KHSs7la3rN0", "teacher" : "正祺老師", "name" : " 法王與法身(上)"},
+{ "series_id" : 20, "id" : 112, "link" : "5105-a20_112", "mp3" : "a20/112.mp3", "youtube" : "GRAiw2T2EM8", "teacher" : "正祺老師", "name" : " 法王與法身(下)"}
 ]

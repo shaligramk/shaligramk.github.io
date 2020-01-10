@@ -113,7 +113,9 @@
 { "series_id" : "20", "id" : "112", "link" : "5105-a20_112", "mp3" : "a20/112.mp3", "youtube" : "GRAiw2T2EM8", "teacher" : "正祺老師", "name" : " 法王與法身(下)"},
 { "series_id" : "20", "id" : "113", "link" : "5106-a20_113", "mp3" : "a20/113.mp3", "youtube" : "lFetxpXOzmI", "teacher" : "正祺老師", "name" : " 所知障與煩惱習氣種子"},
 { "series_id" : "20", "id" : "114", "link" : "5107-a20_114", "mp3" : "a20/114.mp3", "youtube" : "17ca7pRm_Gw", "teacher" : "正齡老師", "name" : " 如來不受後有智"},
-{ "series_id" : "20", "id" : "115", "link" : "5108-a20_115", "mp3" : "a20/115.mp3", "youtube" : "1lGnm4w3Cts", "teacher" : "正齡老師", "name" : " 大乘法與二乘法弘傳因緣不同"}
+{ "series_id" : "20", "id" : "115", "link" : "5108-a20_115", "mp3" : "a20/115.mp3", "youtube" : "1lGnm4w3Cts", "teacher" : "正齡老師", "name" : " 大乘法與二乘法弘傳因緣不同"},
+{ "series_id" : "20", "id" : "116", "link" : "5109-a20_116", "mp3" : "a20/116.mp3", "youtube" : "AUuS5ejTMLA", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(一)"},
+{ "series_id" : "20", "id" : "117", "link" : "5110-a20_117", "mp3" : "a20/117.mp3", "youtube" : "n-odNZPLQag", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(二)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -230,5 +232,7 @@
 { "series_id" : "21", "id" : "112", "link" : "5125-a21_112", "mp3" : "a21/112.mp3", "youtube" : "0ejG2KfdIbs", "teacher" : "正嫺老師", "name" : " 見聞覺知(下)"},
 { "series_id" : "21", "id" : "113", "link" : "5126-a21_113", "mp3" : "a21/113.mp3", "youtube" : "CsJB2WHhpJ0", "teacher" : "正嫺老師", "name" : " 離心意識略說二乘涅槃與究竟地之真如"},
 { "series_id" : "21", "id" : "114", "link" : "5127-a21_114", "mp3" : "a21/114.mp3", "youtube" : "UENplM3bdPs", "teacher" : "正嫺老師", "name" : " 大乘法中離心、意、識之真實義"},
-{ "series_id" : "21", "id" : "115", "link" : "5128-a21_115", "mp3" : "a21/115.mp3", "youtube" : "kNqkJxMgadM", "teacher" : "正嫺老師", "name" : " 八、九識並存的過失"}
+{ "series_id" : "21", "id" : "115", "link" : "5128-a21_115", "mp3" : "a21/115.mp3", "youtube" : "kNqkJxMgadM", "teacher" : "正嫺老師", "name" : " 八、九識並存的過失"},
+{ "series_id" : "21", "id" : "116", "link" : "5129-a21_116", "mp3" : "a21/116.mp3", "youtube" : "z9DGyXO9bq4", "teacher" : "正元老師", "name" : " 五蘊義理(一)"},
+{ "series_id" : "21", "id" : "117", "link" : "5130-a21_117", "mp3" : "a21/117.mp3", "youtube" : "uVgxBdLpTPM", "teacher" : "正元老師", "name" : " 五蘊義理(二)"}
 ]

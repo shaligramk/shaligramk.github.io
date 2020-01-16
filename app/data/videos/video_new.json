@@ -118,7 +118,8 @@
 { "series_id" : "20", "id" : "117", "link" : "5110-a20_117", "mp3" : "a20/117.mp3", "youtube" : "n-odNZPLQag", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(二)"},
 { "series_id" : "20", "id" : "118", "link" : "5111-a20_118", "mp3" : "a20/118.mp3", "youtube" : "nG_kpSUM3ns", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(三)"},
 { "series_id" : "20", "id" : "119", "link" : "5112-a20_119", "mp3" : "a20/119.mp3", "youtube" : "irHO1m__BMA", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(四)"},
-{ "series_id" : "20", "id" : "120", "link" : "5113-a20_120", "mp3" : "a20/120.mp3", "youtube" : "UtnLuXowDB0", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(五)"}
+{ "series_id" : "20", "id" : "120", "link" : "5113-a20_120", "mp3" : "a20/120.mp3", "youtube" : "UtnLuXowDB0", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(五)"},
+{ "series_id" : "20", "id" : "121", "link" : "5144-a20_121", "mp3" : "a20/121.mp3", "youtube" : "bjHwGRcqE8Q", "teacher" : "正齡老師", "name" : " 二乘離生死畏，不受生死苦"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -240,5 +241,6 @@
 { "series_id" : "21", "id" : "117", "link" : "5130-a21_117", "mp3" : "a21/117.mp3", "youtube" : "uVgxBdLpTPM", "teacher" : "正元老師", "name" : " 五蘊義理(二)"},
 { "series_id" : "21", "id" : "118", "link" : "5131-a21_118", "mp3" : "a21/118.mp3", "youtube" : "oq7ngJsi27A", "teacher" : "正元老師", "name" : " 五蘊義理(三)"},
 { "series_id" : "21", "id" : "119", "link" : "5132-a21_119", "mp3" : "a21/119.mp3", "youtube" : "UgYW9EKtrM8", "teacher" : "正元老師", "name" : " 超心意識境界(上)"},
-{ "series_id" : "21", "id" : "120", "link" : "5133-a21_120", "mp3" : "a21/120.mp3", "youtube" : "bcuHvqsFoTw", "teacher" : "正元老師", "name" : " 超心意識境界(下)"}
+{ "series_id" : "21", "id" : "120", "link" : "5133-a21_120", "mp3" : "a21/120.mp3", "youtube" : "bcuHvqsFoTw", "teacher" : "正元老師", "name" : " 超心意識境界(下)"},
+{ "series_id" : "21", "id" : "121", "link" : "5164-a21_121", "mp3" : "a21/121.mp3", "youtube" : "EHUM7F53NIg", "teacher" : "正融老師", "name" : " 意根非識蘊所攝"}
 ]

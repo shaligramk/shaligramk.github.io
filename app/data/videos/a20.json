@@ -123,5 +123,6 @@
 { "series_id" : 20, "id" : 120, "link" : "5113-a20_120", "mp3" : "a20/120.mp3", "youtube" : "UtnLuXowDB0", "teacher" : "正潔老師", "name" : " 大乘真實說--不受後有智(五)"},
 { "series_id" : 20, "id" : 121, "link" : "5144-a20_121", "mp3" : "a20/121.mp3", "youtube" : "bjHwGRcqE8Q", "teacher" : "正齡老師", "name" : " 二乘離生死畏，不受生死苦"},
 { "series_id" : 20, "id" : 122, "link" : "5145-a20_122", "mp3" : "a20/122.mp3", "youtube" : "mtF4n7Gik6A", "teacher" : "正齡老師", "name" : " 聲聞緣覺皆入大乘"},
-{ "series_id" : 20, "id" : 123, "link" : "5146-a20_123", "mp3" : "a20/123.mp3", "youtube" : "Kp7wmogglbI", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(上)"}
+{ "series_id" : 20, "id" : 123, "link" : "5146-a20_123", "mp3" : "a20/123.mp3", "youtube" : "Kp7wmogglbI", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(上)"},
+{ "series_id" : 20, "id" : 124, "link" : "5147-a20_124", "mp3" : "a20/124.mp3", "youtube" : "uUu1O49TIok", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(下)"}
 ]

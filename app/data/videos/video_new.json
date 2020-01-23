@@ -122,7 +122,9 @@
 { "series_id" : "20", "id" : "121", "link" : "5144-a20_121", "mp3" : "a20/121.mp3", "youtube" : "bjHwGRcqE8Q", "teacher" : "正齡老師", "name" : " 二乘離生死畏，不受生死苦"},
 { "series_id" : "20", "id" : "122", "link" : "5145-a20_122", "mp3" : "a20/122.mp3", "youtube" : "mtF4n7Gik6A", "teacher" : "正齡老師", "name" : " 聲聞緣覺皆入大乘"},
 { "series_id" : "20", "id" : "123", "link" : "5146-a20_123", "mp3" : "a20/123.mp3", "youtube" : "Kp7wmogglbI", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(上)"},
-{ "series_id" : "20", "id" : "124", "link" : "5147-a20_124", "mp3" : "a20/124.mp3", "youtube" : "uUu1O49TIok", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(下)"}
+{ "series_id" : "20", "id" : "124", "link" : "5147-a20_124", "mp3" : "a20/124.mp3", "youtube" : "uUu1O49TIok", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(下)"},
+{ "series_id" : "20", "id" : "125", "link" : "5148-a20_125", "mp3" : "a20/125.mp3", "youtube" : "ElLqQf-qpUk", "teacher" : "正齡老師", "name" : " 諸佛如來不入無餘涅槃"},
+{ "series_id" : "20", "id" : "126", "link" : "5149-a20_126", "mp3" : "a20/126.mp3", "youtube" : "6ndtpYKole0", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(一)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -248,5 +250,7 @@
 { "series_id" : "21", "id" : "121", "link" : "5164-a21_121", "mp3" : "a21/121.mp3", "youtube" : "EHUM7F53NIg", "teacher" : "正融老師", "name" : " 意根非識蘊所攝"},
 { "series_id" : "21", "id" : "122", "link" : "5165-a21_122", "mp3" : "a21/122.mp3", "youtube" : "zA-KShIFduA", "teacher" : "正融老師", "name" : " 外法非實有"},
 { "series_id" : "21", "id" : "123", "link" : "5166-a21_123", "mp3" : "a21/123.mp3", "youtube" : "HqUqJ3XOuX8", "teacher" : "正融老師", "name" : " 圓滿佛法的修證，以親證阿賴耶識為核心"},
-{ "series_id" : "21", "id" : "124", "link" : "5167-a21_124", "mp3" : "a21/124.mp3", "youtube" : "OyNfSafzw58", "teacher" : "正融老師", "name" : " 真見道證唯識性，相見道證唯識相"}
+{ "series_id" : "21", "id" : "124", "link" : "5167-a21_124", "mp3" : "a21/124.mp3", "youtube" : "OyNfSafzw58", "teacher" : "正融老師", "name" : " 真見道證唯識性，相見道證唯識相"},
+{ "series_id" : "21", "id" : "125", "link" : "5168-a21_125", "mp3" : "a21/125.mp3", "youtube" : "msl_8qLvwqA", "teacher" : "正融老師", "name" : " 阿賴耶識心體--萬法根源"},
+{ "series_id" : "21", "id" : "126", "link" : "5169-a21_126", "mp3" : "a21/126.mp3", "youtube" : "k3MMZg78A54", "teacher" : "正偉老師", "name" : " 惡取空與善取空(上)"}
 ]

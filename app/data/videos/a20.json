@@ -126,5 +126,6 @@
 { "series_id" : 20, "id" : 123, "link" : "5146-a20_123", "mp3" : "a20/123.mp3", "youtube" : "Kp7wmogglbI", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(上)"},
 { "series_id" : 20, "id" : 124, "link" : "5147-a20_124", "mp3" : "a20/124.mp3", "youtube" : "uUu1O49TIok", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(下)"},
 { "series_id" : 20, "id" : 125, "link" : "5148-a20_125", "mp3" : "a20/125.mp3", "youtube" : "ElLqQf-qpUk", "teacher" : "正齡老師", "name" : " 諸佛如來不入無餘涅槃"},
-{ "series_id" : 20, "id" : 126, "link" : "5149-a20_126", "mp3" : "a20/126.mp3", "youtube" : "6ndtpYKole0", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(一)"}
+{ "series_id" : 20, "id" : 126, "link" : "5149-a20_126", "mp3" : "a20/126.mp3", "youtube" : "6ndtpYKole0", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(一)"},
+{ "series_id" : 20, "id" : 127, "link" : "5150-a20_127", "mp3" : "a20/127.mp3", "youtube" : "lLBtq-b0kQY", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(二)"}
 ]

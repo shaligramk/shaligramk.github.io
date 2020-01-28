@@ -125,7 +125,9 @@
 { "series_id" : "20", "id" : "124", "link" : "5147-a20_124", "mp3" : "a20/124.mp3", "youtube" : "uUu1O49TIok", "teacher" : "正齡老師", "name" : " 三乘即是一乘的真義(下)"},
 { "series_id" : "20", "id" : "125", "link" : "5148-a20_125", "mp3" : "a20/125.mp3", "youtube" : "ElLqQf-qpUk", "teacher" : "正齡老師", "name" : " 諸佛如來不入無餘涅槃"},
 { "series_id" : "20", "id" : "126", "link" : "5149-a20_126", "mp3" : "a20/126.mp3", "youtube" : "6ndtpYKole0", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(一)"},
-{ "series_id" : "20", "id" : "127", "link" : "5150-a20_127", "mp3" : "a20/127.mp3", "youtube" : "lLBtq-b0kQY", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(二)"}
+{ "series_id" : "20", "id" : "127", "link" : "5150-a20_127", "mp3" : "a20/127.mp3", "youtube" : "lLBtq-b0kQY", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(二)"},
+{ "series_id" : "20", "id" : "128", "link" : "5151-a20_128", "mp3" : "a20/128.mp3", "youtube" : "OdzlDGKQRYI", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(三)"},
+{ "series_id" : "20", "id" : "129", "link" : "5152-a20_129", "mp3" : "a20/129.mp3", "youtube" : "8pjGI21qC0k", "teacher" : "正旭老師", "name" : " 歸依法與歸依僧(四)"}
 ,
 
 { "series_id" : "21", "id" : "1", "link" : "4684-a21_001", "mp3" : "a21/001.mp3", "youtube" : "-gXohQRHhG0", "teacher" : "正旭老師", "name" : " 略說「識蘊」與「阿賴耶識」的差異"},
@@ -254,5 +256,7 @@
 { "series_id" : "21", "id" : "124", "link" : "5167-a21_124", "mp3" : "a21/124.mp3", "youtube" : "OyNfSafzw58", "teacher" : "正融老師", "name" : " 真見道證唯識性，相見道證唯識相"},
 { "series_id" : "21", "id" : "125", "link" : "5168-a21_125", "mp3" : "a21/125.mp3", "youtube" : "msl_8qLvwqA", "teacher" : "正融老師", "name" : " 阿賴耶識心體--萬法根源"},
 { "series_id" : "21", "id" : "126", "link" : "5169-a21_126", "mp3" : "a21/126.mp3", "youtube" : "k3MMZg78A54", "teacher" : "正偉老師", "name" : " 惡取空與善取空(上)"},
-{ "series_id" : "21", "id" : "127", "link" : "5170-a21_127", "mp3" : "a21/127.mp3", "youtube" : "wSv4RQxi1yE", "teacher" : "正偉老師", "name" : " 惡取空與善取空(下)"}
+{ "series_id" : "21", "id" : "127", "link" : "5170-a21_127", "mp3" : "a21/127.mp3", "youtube" : "wSv4RQxi1yE", "teacher" : "正偉老師", "name" : " 惡取空與善取空(下)"},
+{ "series_id" : "21", "id" : "128", "link" : "5171-a21_128", "mp3" : "a21/128.mp3", "youtube" : "JrnZWGA5e8k", "teacher" : "正偉老師", "name" : " 防惡修善、真修佛道"},
+{ "series_id" : "21", "id" : "129", "link" : "5172-a21_129", "mp3" : "a21/129.mp3", "youtube" : "jLly7KLT2y0", "teacher" : "正偉老師", "name" : " 阿賴耶識不是識蘊所攝"}
 ]

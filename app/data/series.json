@@ -159,7 +159,7 @@ layout: none
     "id": 20,
     "img_url": "a20-tw.jpg",
     "name":"勝鬘經講記",
-    "status" : 1,
+    "status" : 0,
     "count": 130,
     "url": "a/a20"
   },

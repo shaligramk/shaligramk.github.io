@@ -151,7 +151,7 @@ layout: none
     "id": 19,
     "img_url": "a19-tw.jpg",
     "name": "入不二法門",
-    "status" : 0,
+    "status" : 1,
     "count": 130,
     "url": "a/a19"
   },

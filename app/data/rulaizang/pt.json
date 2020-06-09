@@ -1,0 +1,46 @@
+"interactivity": {
+  "detect_on": "canvas",
+  // activate
+  "events": {
+      "onhover": {
+        "enable": true,
+        "mode": [
+          "grab",
+          "bubble"
+        ]
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+  },
+  // configure
+  "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 0.7
+        }
+      },
+      "bubble": {
+        "distance": 600,
+        "size": 12,
+        "duration": 1,
+        "opacity": 0.8,
+        "speed": 2
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 20// How many you want added
+      },
+      "remove": {
+        "particles_nb": 10
+      }
+  }
+},
+"retina_detect": true // No clue what this does, docs don't explain, too scared to remove. ¯\_(ツ)_/¯
+}

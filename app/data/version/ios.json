@@ -1,6 +1,7 @@
 {
 	"version": "1.1.0",
 	"build": "3",
+	"code": "1",
 	"payload" : [
 		{
 			"msg": "text1"

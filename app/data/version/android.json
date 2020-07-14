@@ -1,0 +1,15 @@
+{
+	"version": "0.5",
+	"build": "1",
+	"code": "0",
+	"loc": "loc",
+	"info": "later",
+	"payload" : [
+		{
+			"msg": "text1"
+		},
+		{
+			"msg": "text2"
+		}
+	]
+}

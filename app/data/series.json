@@ -1,7 +1,3 @@
----
-layout: none
----
-
 [
   {
     "id": 1,
@@ -170,5 +166,13 @@ layout: none
     "status" : 1,
     "count": 130,
     "url": "a/a21"
+  },
+  {
+    "id": 22,
+    "img_url": "a22-tw.jpg",
+    "name":"勝鬘經講記(二)",
+    "status" : 1,
+    "count": 130,
+    "url": "a/a22"
   }
 ]

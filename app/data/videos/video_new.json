@@ -261,5 +261,6 @@
 { "series_id" : "21", "id" : "128", "link" : "5171-a21_128", "mp3" : "a21/128.mp3", "youtube" : "JrnZWGA5e8k", "teacher" : "正偉老師", "name" : " 防惡修善、真修佛道"},
 { "series_id" : "21", "id" : "129", "link" : "5172-a21_129", "mp3" : "a21/129.mp3", "youtube" : "jLly7KLT2y0", "teacher" : "正偉老師", "name" : " 阿賴耶識不是識蘊所攝"},
 { "series_id" : "21", "id" : "130", "link" : "5173-a21_130", "mp3" : "a21/130.mp3", "youtube" : "bP8rVrvZhAI", "teacher" : "正偉老師", "name" : " 總結識蘊真義及略說八、九識並存的過失"},
-{ "series_id" : "22", "id" : "1", "link" : "5184-a22_001", "mp3" : "a22/001.mp3", "youtube" : "0U07OKMk1lE", "teacher" : "正旭老師", "name" : "無邊聖諦"}  
+{ "series_id" : "22", "id" : "1", "link" : "5184-a22_001", "mp3" : "a22/001.mp3", "youtube" : "0U07OKMk1lE", "teacher" : "正旭老師", "name" : "無邊聖諦"} ,
+{ "series_id" : "22", "id" : "2", "link" : "5185-a22_002", "mp3" : "a22/002.mp3", "youtube" : "JmdeGHw-Z-w", "teacher" : "正旭老師", "name" : "頓悟與漸修"}  
 ]

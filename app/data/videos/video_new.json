@@ -263,5 +263,6 @@
 { "series_id" : "21", "id" : "130", "link" : "5173-a21_130", "mp3" : "a21/130.mp3", "youtube" : "bP8rVrvZhAI", "teacher" : "正偉老師", "name" : " 總結識蘊真義及略說八、九識並存的過失"},
 { "series_id" : "22", "id" : "1", "link" : "5184-a22_001", "mp3" : "a22/001.mp3", "youtube" : "0U07OKMk1lE", "teacher" : "正旭老師", "name" : "無邊聖諦"} ,
 { "series_id" : "22", "id" : "2", "link" : "5185-a22_002", "mp3" : "a22/002.mp3", "youtube" : "JmdeGHw-Z-w", "teacher" : "正旭老師", "name" : "頓悟與漸修"} ,
-{ "series_id" : "22", "id" : "3", "link" : "5186-a22_003", "mp3" : "a22/003.mp3", "youtube" : "EO2ElHNfbUE", "teacher" : "正旭老師", "name" : "第一義智"}  
+{ "series_id" : "22", "id" : "3", "link" : "5186-a22_003", "mp3" : "a22/003.mp3", "youtube" : "EO2ElHNfbUE", "teacher" : "正旭老師", "name" : "第一義智"} ,
+{ "series_id" : "22", "id" : "4", "link" : "5187-a22_004", "mp3" : "a22/004.mp3", "youtube" : "IFx28cg-P4w", "teacher" : "正旭老師", "name" : "金剛喻定不共三乘"}  
 ]

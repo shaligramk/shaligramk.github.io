@@ -75,7 +75,7 @@
     "id": 10,
     "img_url": "10-tw.jpg",
     "name": "菩薩正行(二)",
-    "status" : 0,
+    "status" : 1,
     "count": 130,
     "url": "a/a10"
   },
@@ -163,7 +163,7 @@
     "id": 21,
     "img_url": "a21-tw.jpg",
     "name":"識蘊真義",
-    "status" : 1,
+    "status" : 0,
     "count": 130,
     "url": "a/a21"
   },

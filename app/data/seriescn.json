@@ -4,7 +4,7 @@
 {"id": 3, "img_url": "a03.jpg", "name": "\u5ff5\u4f5b\u6cd5\u95e8", "status": 0, "count": 130, "url": "a/a03"}, 
 {"id": 4, "img_url": "a04.jpg", "name": "\u5b66\u4f5b\u6b63\u77e5\u89c1(\u4e8c)", "status": 0, "count": 130, "url": "a/a04"}, 
 {"id": 5, "img_url": "a05.jpg", "name": "\u5b97\u901a\u4e0e\u8bf4\u901a", "status": 0, "count": 130, "url": "a/a05"}, 
-{"id": 6, "img_url": "a06.jpg", "name": "\u4e09\u4e58\u83e9\u63d0\u6982\u8bf4", "status": 0, "count": 130, "url": "a/a06"}, 
+{"id": 6, "img_url": "a06.jpg", "name": "\u4e09\u4e58\u83e9\u63d0\u6982\u8bf4", "status": 1, "count": 130, "url": "a/a06"}, 
 {"id": 7, "img_url": "a07.jpg", "name": "\u5b66\u4f5b\u91ca\u7591(\u4e00)", "status": 0, "count": 130, "url": "a/a07"}, 
 {"id": 8, "img_url": "a08.jpg", "name": "\u83e9\u8428\u6b63\u884c(\u4e00)", "status": 0, "count": 130, "url": "a/a08"}, 
 {"id": 9, "img_url": "a09.jpg", "name": "\u5b66\u4f5b\u91ca\u7591(\u4e8c)", "status": 0, "count": 130, "url": "a/a09"}, 

@@ -1,4 +1,4 @@
-[
+  [
   {
     "id": 1,
     "img_url": "01.jpg",
@@ -171,8 +171,16 @@
     "id": 22,
     "img_url": "a22-tw.jpg",
     "name":"勝鬘經講記(二)",
-    "status" : 1,
+    "status" : 0,
     "count": 130,
     "url": "a/a22"
+  },
+  {
+    "id": 23,
+    "img_url": "a23-tw.jpg",
+    "name":"相似佛法—重蹈燈下黑之琅琊閣",
+    "status" : 1,
+    "count": 130,
+    "url": "a/a23"
   }
 ]

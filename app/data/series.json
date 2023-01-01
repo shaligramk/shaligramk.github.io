@@ -190,5 +190,21 @@
     "status" : 1,
     "count": 130,
     "url": "a/a24"
+  },
+ {
+    "id": 25,
+    "img_url": "a25-tw.jpg",
+    "name":"相似佛法(二)重蹈燈下黑之琅琊閣",
+    "status" : 1,
+    "count": 130,
+    "url": "a/a25"
+  },
+  {
+    "id": 26,
+    "img_url": "a26-tw.jpg",
+    "name":"法華經講義",
+    "status" : 1,
+    "count": 130,
+    "url": "a/a26"
   }
 ]

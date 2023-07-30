@@ -11,7 +11,7 @@ nav ul {
 
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Source Sans Pro', 'Microsoft Yahei', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -29,13 +29,13 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Source Sans Pro', 'Microsoft Yahei', sans-serif;
 }
 .container {
      margin-top: 20px;
 }
 p {
-    font-size: 1.1em;
+    font-size: 1.0em;
     line-height: 1.2em;
     color: #333;
 }

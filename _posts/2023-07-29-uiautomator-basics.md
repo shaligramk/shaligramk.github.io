@@ -129,7 +129,9 @@ UiObject item = listView.getChild(new UiSelector().index(3)); // Get the 4th ite
 
 These are just a few of the essential functions provided by the UI Automator library. There are many more methods and classes available, allowing you to create comprehensive and powerful UI tests for your Android applications. When using UI Automator, make sure to import the necessary classes and use the appropriate methods to find and interact with the UI elements effectively.
 
-### Let's create a simple UI Automator test example that interacts with an Android app. For this example, let's assume we have an app with a login screen containing two EditText fields for username and password, and a login button. Our test will perform the following steps:
+## Real World Example
+
+Let's create a simple UI Automator test example that interacts with an Android app. For this example, let's assume we have an app with a login screen containing two EditText fields for username and password, and a login button. Our test will perform the following steps:
 
 1. Launch the app.
 2. Enter valid username and password.

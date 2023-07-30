@@ -5,9 +5,9 @@ date:   2023-07-29 23:11:02 +0800
 ---
 
 
-## UI Automator Basics Blogspot
+### UI Automator Basics Blogspot
 
-### Why use UI Automator
+## Why use UI Automator
 
 - **Cross-app testing**: UI Automator is designed for cross-app testing, meaning it can interact with elements across different Android apps. This makes it suitable for scenarios where you need to test interactions between multiple apps or perform actions like taking screenshots, accessing notifications, or interacting with system dialogs. Espresso, on the other hand, is primarily focused on testing a single app's user interface interactions and doesn't provide direct support for interactions with elements outside the app under test.
 
@@ -17,7 +17,7 @@ date:   2023-07-29 23:11:02 +0800
 
 - **Wide device and OS version compatibility**: UI Automator generally offers better compatibility with a wide range of Android devices and OS versions. It is designed to work on Android 4.3 (API level 18) and higher, allowing you to test on older devices that Espresso might not support. Espresso, being part of the AndroidX Test library, has a minimum API level requirement of 14, which may not cover some older devices.
 
-### How to get started
+## How to get started
 
 To get started with UI Automator in Android Studio, you need to set up a new project and configure it to use the UI Automator testing framework. Here's a step-by-step guide to help you get started:
 

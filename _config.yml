@@ -34,9 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-markdown: kramdown
-highlighter: rouge
-    input: GFM
+markdown: redcarpet
 
 # Exclude from processing.
 exclude:

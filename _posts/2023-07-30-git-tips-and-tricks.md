@@ -3,27 +3,25 @@ layout: post
 title:  "Git Tips and Tricks for Test Automation Engineers"
 date:   2023-07-30 23:11:02 +0800
 ---
-### Git Tips and Tricks for Test Automation Engineers
-
-This is going to be a small cheatsheet for random `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.
+This is going to be a small cheatsheet for `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.
 
 ## 1. **Creating and Cloning Repositories**
 
 To get started with Git, you'll need to create a repository for your automation project. Use the following commands to initialize a new repository and clone an existing one:
 
-{% highlight ruby %}
+```html
 # Initialize a new repository locally
 git init
 
 # Clone an existing repository from a remote URL
 git clone <remote_repository_url>
-{% endhighlight %}
+```
 
 ## 2. **Branching and Merging**
 
 Branching is a core feature in Git that allows you to work on new features or bug fixes without affecting the main codebase. Use branches to keep your changes isolated until they are ready to be merged. Here's how you can create and switch to a new branch:
 
-```bash
+```html
 # Create a new branch
 git branch <branch_name>
 

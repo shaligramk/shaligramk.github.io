@@ -40,7 +40,7 @@ dependencies {
 
 Here's a simple example of a UI Automator test:
 
-```java
+```json
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.uiautomator.UiDevice;
 import androidx.test.uiautomator.UiObject;
@@ -119,7 +119,7 @@ scrollableList.scrollBackward(); // Scroll backward in the list
 
 - **UiCollection**: UiCollection is used to interact with a group of elements that share the same UI class or other properties. It allows you to perform actions on individual elements within the collection.
 
-```java
+```json
 UiCollection listView
 
  = new UiCollection(new UiSelector().className("android.widget.ListView"));
@@ -140,7 +140,7 @@ Let's create a simple UI Automator test example that interacts with an Android a
 
 Assuming the app package name is com.example.myapp and the Activity name is LoginActivity, here's the UI Automator test example:
 
-```java
+```json
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.uiautomator.By;

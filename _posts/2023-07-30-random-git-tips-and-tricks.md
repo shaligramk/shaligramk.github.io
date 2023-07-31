@@ -1,84 +1,120 @@
 ---
 layout: post
-title:  "Random git tips"
+title:  "Git Tips and Tricks for Test Automation Engineers"
 date:   2023-07-30 23:11:02 +0800
 ---
 
-### Random Git Tips
+### Git Tips and Tricks for Test Automation Engineers
 
-This is going to be a small cheatsheet for random `git` commands that I find myself using *most* of the time.
+This is going to be a small cheatsheet for random `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.
 
+## 1. **Creating and Cloning Repositories**
 
-## Rebasing the commits
-
-`git rebase` is [really powerful](http://git-scm.com/docs/git-rebase) however I mostly find myself using it to rebase the commits in order to have a clean history. Here is how you rebase the commits i.e. merge the minor commits into one meaningful commit.
+To get started with Git, you'll need to create a repository for your automation project. Use the following commands to initialize a new repository and clone an existing one:
 
 ```bash
-git rebase -i xxxxx
+# Initialize a new repository locally
+git init
+
+# Clone an existing repository from a remote URL
+git clone <remote_repository_url>
 ```
 
-Where `xxxxx` is the hash of the commit immediately below the commit message till which you want to rebase the commits.
+## 2. **Branching and Merging**
 
-
-## Renaming a branch
-
-You can do the following to rename a branch
+Branching is a core feature in Git that allows you to work on new features or bug fixes without affecting the main codebase. Use branches to keep your changes isolated until they are ready to be merged. Here's how you can create and switch to a new branch:
 
 ```bash
-git branch -m old_branch_name new_branch_name
+# Create a new branch
+git branch <branch_name>
+
+# Switch to the new branch
+git checkout <branch_name>
 ```
 
-Also, if you want to rename the branch which you are currently on, you can do the following
+Once your changes are complete and tested, merge them back into the main branch:
 
 ```bash
-git branch -m new_branch_name
+# Switch to the main branch
+git checkout main
+
+# Merge the feature branch into the main branch
+git merge <feature_branch>
 ```
 
-## Detached head problem
+## 3. **Staging and Committing Changes**
 
-Sometimes you might get the problem of detached head. Most common cause for this to occur is, you checkout some specific commit and you start getting this detached head warning since you are not any branch. So how do you solve this?! You simply checkout the branch you were on. For example if you were doing some work upon the `develop` branch, when you started getting this warning, do
+Before saving your changes permanently, stage them for commit using the `git add` command:
 
 ```bash
-git checkout develop
+# Stage all changes in the working directory
+git add .
+
+# Stage specific files or directories
+git add <file1> <file2> <directory>
 ```
 
-If you forget about the branch you were on, you may simply `checkout` some (any) branch and the problem will be solved.
-
-## Checking the log
-
-This one is pretty straight forward. You simply do:
+Commit the staged changes with a descriptive message:
 
 ```bash
+git commit -m "Add login test automation script"
+```
+
+## 4. **Viewing History and Diffs**
+
+Git provides powerful tools to review project history and visualize code changes. Use the following commands to view commit history and differences between versions:
+
+```bash
+# View commit history
 git log
+
+# View the changes made in a specific commit
+git show <commit_hash>
 ```
 
-This will give you the detailed versoin. However, if you just want to have a look at the commit messages (and hashes), simply do the following:
+## 5. **Working with Remote Repositories**
+
+Collaboration is a key aspect of software development, and Git makes it easy to work with remote repositories. Here are some essential commands:
 
 ```bash
-git log --oneline
+# Add a remote repository
+git remote add <remote_name> <remote_repository_url>
+
+# Push local changes to a remote repository
+git push <remote_name> <branch_name>
+
+# Pull changes from a remote repository
+git pull <remote_name> <branch_name>
 ```
 
-## Resetting the changes
+## 6. **Handling Conflicts**
 
-If you want to get all the staged changes back i.e. revert the `git add .`, you can do the following
+Conflicts may arise when merging branches with conflicting changes. Git provides tools to resolve conflicts manually. After resolving conflicts, commit the changes to complete the merge.
+
+## 7. **Ignoring Files**
+
+Some files, such as temporary build artifacts or sensitive data, should not be tracked by Git. Create a `.gitignore` file in the project root to specify which files and directories to ignore:
+
+```
+# .gitignore
+*.log
+/target/
+/credentials.txt
+```
+
+## 8. **Undoing Changes**
+
+If you need to undo changes, Git offers various options:
 
 ```bash
-git reset HEAD
+# Discard changes in a file
+git checkout -- <file>
+
+# Revert a commit (creates a new commit to undo changes)
+git revert <commit_hash>
+
+# Reset to a previous commit (careful, as this removes commits from history)
+git reset --hard <commit_hash>
 ```
 
-If you want to revert all the changes since the last commit do the following
-
-```bash
-git reset --hard HEAD
-```
-
-followed by `git clean -fd` which will remove all the untracked files.
-
-## That SSL Verification Error
-
-
-Sometimes, you might get SSL certificate error when cloning, pulling or pushing. The simplest way to make it go away is turn off the SSL verification i.e.
-
-```bash
-git config --global http.sslVerify false
-```
+If you have any other Git tips or tricks that you find helpful, feel free to share them in the comments below. Happy automating!

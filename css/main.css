@@ -1,7 +1,8 @@
 body {
     margin: 30px auto;
     width: 70%;
-    font-family: "Alegreya", "Times New Roman", Georgia, serif;
+    font-family: 'Fira Code VF', 'Segoe UI', 'Consolas', 'monospace', 'Microsoft YaHei';
+    background-image: radial-gradient(rgba(59, 130, 246, 0.2) 1px, rgba(59, 130, 246, 0) 0px);
 }
 nav ul {
     display:block;

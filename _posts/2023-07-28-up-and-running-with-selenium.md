@@ -3,7 +3,6 @@ layout: post
 title:  "Up and Running with Selenium"
 date:   2023-07-28 23:11:02 +0800
 ---
-
 ### Up and Running with Selenium
 
 This post covers a basic implementation of a Selenium testing framework from the ground up using python. It includes example code, in addition to a number of links that were useful when developing my framework.
@@ -224,8 +223,6 @@ There is always this question on how to E2E Testing needs to be done as compared
 An additional strategy is to appoint someone to decide where tests for newly discovered bugs should be written. Closing out a bug should require that a test exists somewhere for the bug.
 
 ***
-
-
 ## Going Further!
 
 Ask a question on the [user group](https://groups.google.com/forum/#!forum/selenium-users),

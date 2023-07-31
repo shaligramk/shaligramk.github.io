@@ -3,7 +3,6 @@ layout: post
 title:  "Git Tips and Tricks for Test Automation Engineers"
 date:   2023-07-30 23:11:02 +0800
 ---
-
 ### Git Tips and Tricks for Test Automation Engineers
 
 This is going to be a small cheatsheet for random `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.

@@ -3,7 +3,7 @@ layout: post
 title:  "UI Automator Basics"
 date:   2023-07-29 23:11:02 +0800
 ---
-### UI Automator Basics Blogspot
+### UI Automator Basics
 
 ## Why use UI Automator
 

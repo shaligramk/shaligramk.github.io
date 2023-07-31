@@ -11,13 +11,13 @@ This is going to be a small cheatsheet for random `git` commands that I find mys
 
 To get started with Git, you'll need to create a repository for your automation project. Use the following commands to initialize a new repository and clone an existing one:
 
-```bash
+{% highlight ruby %}
 # Initialize a new repository locally
 git init
 
 # Clone an existing repository from a remote URL
 git clone <remote_repository_url>
-```
+{% endhighlight %}
 
 ## 2. **Branching and Merging**
 

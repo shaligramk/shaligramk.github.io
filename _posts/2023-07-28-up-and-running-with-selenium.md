@@ -42,7 +42,7 @@ First, let's install the dependencies below. You can use a
 ## Setup
 
 Now, fire up your favorite text editor, and let's create an base test case with fixtures we can use for all test cases:
-
+```python
     from selenium import webdriver
 
     class SeleniumBaseTestCase(object):
@@ -53,7 +53,7 @@ Now, fire up your favorite text editor, and let's create an base test case with 
 
         def teardown(self):
             self.driver.quit()
-
+```
 Fixtures are wrappers around tests that are run before and after the test. In the above example, we startup a new firefox browser for each test and quit the browser when the test has finished. Even if the test fails, the teardown method will still be called.
 
 ***
@@ -61,7 +61,7 @@ Fixtures are wrappers around tests that are run before and after the test. In th
 ## Writing your test
 
 Here is an example of what your test might look like:
-
+```python
         import pytest
 
 
@@ -78,7 +78,7 @@ Here is an example of what your test might look like:
 
             title = "Google"
             assert title == driver.title
-
+```
 ***
 
 ## Page Object Model
@@ -110,7 +110,7 @@ Sauce Labs allows you to run your tests in the cloud on
 
 To use Sauce Labs, we just need to modify our setup fixture to create a remote webdriver instead of the Firefox
 one we were using previously. Let's modify our module and test level fixtures:
-
+```python
     def setup():
         config_json = """
         {
@@ -140,7 +140,7 @@ one we were using previously. Let's modify our module and test level fixtures:
                 self.driver = webdriver.Firefox()
 
             self.driver.implicitly_wait(config['timeout'])
-
+```
 ***
 
 ## Cross-browser testing

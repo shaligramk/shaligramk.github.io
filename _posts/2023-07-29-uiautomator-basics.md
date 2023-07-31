@@ -37,7 +37,7 @@ dependencies {
 
 Here's a simple example of a UI Automator test:
 
-```json
+```java
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.uiautomator.UiDevice;
 import androidx.test.uiautomator.UiObject;
@@ -137,7 +137,8 @@ Let's create a simple UI Automator test example that interacts with an Android a
 
 Assuming the app package name is com.example.myapp and the Activity name is LoginActivity, here's the UI Automator test example:
 
-{% highlight ruby %}
+
+```java
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.uiautomator.By;
@@ -191,5 +192,5 @@ public class MyLoginTest {
         assertTrue("Login was not successful", loggedInMessage.exists());
     }
 }
-{% endhighlight %}
+```
 

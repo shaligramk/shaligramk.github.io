@@ -45,7 +45,6 @@ First, let's install the dependencies below. You can use a
 
 Now, fire up your favorite text editor, and let's create an base test case with fixtures we can use for all test cases:
 
-    :::python
     from selenium import webdriver
 
     class SeleniumBaseTestCase(object):
@@ -64,9 +63,6 @@ Fixtures are wrappers around tests that are run before and after the test. In th
 ## Writing your test
 
 Here is an example of what your test might look like:
-
-    :::python
-    ...
 
         import pytest
 
@@ -117,9 +113,6 @@ Sauce Labs allows you to run your tests in the cloud on
 To use Sauce Labs, we just need to modify our setup fixture to create a remote webdriver instead of the Firefox
 one we were using previously. Let's modify our module and test level fixtures:
 
-    :::python
-    ...
-
     def setup():
         config_json = """
         {
@@ -149,8 +142,6 @@ one we were using previously. Let's modify our module and test level fixtures:
                 self.driver = webdriver.Firefox()
 
             self.driver.implicitly_wait(config['timeout'])
-
-    ...
 
 ***
 

@@ -34,7 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
-markdown: redcarpet
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
+
+# Add a search button to the navbar
+post_search: true
 
 # Exclude from processing.
 exclude:

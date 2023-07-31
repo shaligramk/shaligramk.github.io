@@ -37,9 +37,6 @@ plugins:
 # Conversion
 kramdown:
   syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
 
 # Add a search button to the navbar
 post_search: true

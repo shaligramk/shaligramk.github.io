@@ -1,8 +1,8 @@
 body {
     margin: 30px auto;
     width: 70%;
-    font-family: 'Fira Code VF', 'Segoe UI', 'Consolas', 'monospace', 'Microsoft YaHei';
-    background-image: radial-gradient(rgba(59, 130, 246, 0.2) 1px, rgba(59, 130, 246, 0) 0px);
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    background-color: #efece0;
 }
 nav ul {
     display:block;
@@ -34,6 +34,11 @@ a {
     text-decoration: none;
     color: #2a7ae2;
 }
+
+.page-link {
+    color: #111111;
+}
+
 a:hover {
     text-decoration: underline;
 }

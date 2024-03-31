@@ -1,2 +1,2 @@
 # shaligramk.github.io
-Tech Blog focused on QA procesess, Automation, and random unix/git musings. 
+Tech Blog focused on Quality Engineering procesess, Test Automation, and random unix/git musings. 

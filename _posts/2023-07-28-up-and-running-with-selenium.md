@@ -1,7 +1,18 @@
 ---
 layout: post
-title:  "Up and Running with Selenium"
-date:   2023-07-28 23:11:02 +0800
+title: "Up and Running with Selenium"
+excerpt: "Everything you need to know to start using Selenium"
+comments: false
+related: true
+header:
+    image: /assets/images/uiautomator_basics_thumbnail.png
+    overlay_image: /assets/images/uiautomator_basics.jpg
+    overlay_filter: 0.25
+date: 2023-07-28
+toc: true
+toc_label: "Up and Running with Selenium"
+tags:
+  - selenium
 ---
 This post covers a basic implementation of a Selenium testing framework from the ground up using python. It includes example code, in addition to a number of links that were useful when developing my framework.
 

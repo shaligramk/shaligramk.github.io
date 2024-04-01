@@ -14,7 +14,6 @@ toc_label: "UiAutomator Basics"
 tags:
   - android
 ---
-
 ## Why use UI Automator
 
 - **Cross-app testing**: UI Automator is designed for cross-app testing, meaning it can interact with elements across different Android apps. This makes it suitable for scenarios where you need to test interactions between multiple apps or perform actions like taking screenshots, accessing notifications, or interacting with system dialogs. Espresso, on the other hand, is primarily focused on testing a single app's user interface interactions and doesn't provide direct support for interactions with elements outside the app under test.

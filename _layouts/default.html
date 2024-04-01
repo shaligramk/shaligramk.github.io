@@ -1,35 +1,52 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="description" content="Shawn Shaligram - Test Automation Blog">
-      <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=">
-      <title>Shawn Shaligram - Test Automation Blog </title>
-      <meta name="robots" content="noindex,nofollow">
-      <link rel="stylesheet" type="text/css" href="/css/main.css">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7313255608839171"
-     crossorigin="anonymous"></script>
-    </head>
-    <body>
-      <header class="site-header">
-      <nav>
-          <ul>
-              <li><a class="page-link" href="/">Home</a></li>
-              <li><a class="page-link" href="/blog">Blog</a></li>
-          </ul>
-      </nav>
-    </header>
+---
+---
 
-      <div class="container">
-      
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="initial-content">
       {{ content }}
-      
-      </div><!-- /.container -->
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-6358084314775411"
+             data-ad-format="auto"></ins>
+        </div>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div class="page__footer">
       <footer>
-          <ul>
-              <li><a href="mailto:kshaligram@gmail.com">email</a></li>
-              <li><a href="https://github.com/shaligramk">github.com/shaligramk</a></li>
-        </ul>
+        {% include footer/custom.html %}
+        {% include footer.html %}
       </footer>
-    </body>
-  </html>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

@@ -4,4 +4,3 @@ The blog is written using Jekyll as site generator and Github Pages as hosting s
 [![Shawn Shaligram's Blog live preview][2]][1]
 
 [1]: https://shaligramk.github.io/
-[2]: assets/images/screenshot.png (live preview)

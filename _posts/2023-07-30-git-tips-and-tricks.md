@@ -1,5 +1,5 @@
 ---
-title: "Git Tips and Tricks for Test Automation Engineers "
+title: "Navigating Git: Beginner's Tips and Tricks for QA Engineers "
 excerpt: "Git Commands Tips"
 comments: false
 related: true

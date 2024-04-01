@@ -1,7 +1,18 @@
 ---
 layout: post
-title:  "Git Tips and Tricks for Test Automation Engineers"
-date:   2023-07-30 23:11:02 +0800
+title: "Git Tips and Tricks for Test Automation Engineers"
+excerpt: "Git Commands Tips"
+comments: false
+related: true
+header:
+    image: /assets/images/xctest_page_object_thumbnail.png
+    overlay_image: /assets/images/xctest_page_object.jpg
+    overlay_filter: 0.25
+date: 2023-07-30
+toc: true
+toc_label: "Git Tips and Tricks"
+tags:
+  - git
 ---
 This is going to be a small cheatsheet for `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.
 

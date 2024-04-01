@@ -5,7 +5,7 @@ comments: false
 related: true
 header:
     image: /assets/images/uiautomator_basics_thumbnail.png
-    overlay_image: /assets/images/uiautomator_basics.jpg
+    overlay_image: /assets/images/Selenium_logo.svg
     overlay_filter: 0.25
 date: 2023-07-28
 toc: true

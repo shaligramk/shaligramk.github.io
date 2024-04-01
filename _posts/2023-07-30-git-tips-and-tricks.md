@@ -5,7 +5,7 @@ comments: false
 related: true
 header:
     image: /assets/images/xctest_page_object_thumbnail.png
-    overlay_image: /assets/images/xctest_page_object.jpg
+    overlay_image: /assets/images/Git-Logo-2Color.png
     overlay_filter: 0.25
 date: 2023-07-30
 toc: true

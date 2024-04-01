@@ -1,6 +1,5 @@
 ---
-layout: post
-title: "Git Tips and Tricks for Test Automation Engineers"
+title: "Git Tips and Tricks for Test Automation Engineers "
 excerpt: "Git Commands Tips"
 comments: false
 related: true

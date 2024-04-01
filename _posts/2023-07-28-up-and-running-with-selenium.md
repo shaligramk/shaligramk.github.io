@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Up and Running with Selenium"
 excerpt: "Everything you need to know to start using Selenium"
 comments: false

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "UiAutomator Basics"
 excerpt: "Everything you need to know to start using UiAutomator on Android"
 comments: true

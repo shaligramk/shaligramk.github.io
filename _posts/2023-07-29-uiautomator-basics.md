@@ -1,7 +1,18 @@
 ---
 layout: post
-title:  "UI Automator Basics"
-date:   2023-07-29 23:11:02 +0800
+title: "UiAutomator Basics"
+excerpt: "Everything you need to know to start using UiAutomator on Android"
+comments: true
+related: true
+header:
+    image: /assets/images/uiautomator_basics_thumbnail.png
+    overlay_image: /assets/images/uiautomator_basics.jpg
+    overlay_filter: 0.25
+date: 2024-01-19
+toc: true
+toc_label: "UiAutomator Basics"
+tags:
+  - android
 ---
 
 ## Why use UI Automator

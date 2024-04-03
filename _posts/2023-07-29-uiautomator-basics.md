@@ -125,10 +125,8 @@ scrollableList.scrollBackward(); // Scroll backward in the list
 
 - **UiCollection**: UiCollection is used to interact with a group of elements that share the same UI class or other properties. It allows you to perform actions on individual elements within the collection.
 
-```json
-UiCollection listView
-
- = new UiCollection(new UiSelector().className("android.widget.ListView"));
+```java
+UiCollection listView = new UiCollection(new UiSelector().className("android.widget.ListView"));
 int count = listView.getChildCount(); // Get the number of items in the ListView
 UiObject item = listView.getChild(new UiSelector().index(3)); // Get the 4th item in the ListView
 ```

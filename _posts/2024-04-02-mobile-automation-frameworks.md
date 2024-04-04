@@ -19,7 +19,7 @@ Among the myriad of mobile automation frameworks available, Espresso and Appium 
 
 ## Espresso (Kotlin)
 
-Espresso is a powerful testing framework designed for Android app testing. It provides a concise and intuitive API for writing UI tests, tightly integrated with the Android testing framework.
+Espresso is a powerful testing framework designed for Android app testing. It provides a concise and intuitive API for writing UI tests, tightly integrated within the Android ecosystem.
 
 ### Features:
 
@@ -29,9 +29,13 @@ Espresso is a powerful testing framework designed for Android app testing. It pr
 
 ### Pros:
 
-- **Native Integration:** Espresso integrates tightly with the Android testing framework, allowing for seamless interaction with UI components and access to platform-specific features.
+- **Native Integration:** Espresso integrates tightly with the Android testing framework, allowing for seamless interaction with UI components and access to platform-specific features. Espresso test is within the application and it is aware of all the layers of the application. So you can mock certain layers of app, more like a white-box testing
   
 - **Speed:** Tests written in Espresso are known for their speed and efficiency, as they interact directly with UI components.
+
+- **The Shifting:** will be very much useful as Espresso supports testing activities outside the app like camera, browser and dialer etc which appium does not support.
+
+- **Toast:** Espresso you can test toast message, auto complete and dialogs which are outside app.
   
 ### Cons:
 
@@ -57,7 +61,7 @@ Appium is a versatile cross-platform automation framework for mobile testing, su
 
 - **Java Support:** Appium has extensive support for Java, allowing developers to write tests using Java's robust ecosystem and libraries.
   
-- **Cross-Platform Compatibility:** Appium enables testing of both iOS and Android apps using a unified API, providing flexibility for teams working on cross-platform projects.
+- **Cross-Platform Compatibility:** Appium enables testing of both iOS and Android apps using a unified API, providing flexibility for teams working on cross-platform projects. Appium tests are black-box, tests know only the UI layer of the app. Main advantage is for cross-platform testing.
 
 ### Pros:
 

@@ -69,6 +69,8 @@ Appium is a versatile cross-platform automation framework for mobile testing, su
   
 - **Flexibility:** Appium tests can be written in various programming languages, offering flexibility for teams with diverse skill sets.
 
+- **Code Sharing:** Android and iOS tests can share classes for helper methods and configuration setup. While they may have common test logic at a higher level, they might differ in implementation details at a lower level. For instance, copying a page object class and adjusting locators may suffice to adapt it to the other platform.
+
 ### Cons:
 
 - **Performance Overhead:** Due to its cross-platform nature and reliance on the WebDriver protocol, Appium tests may have a higher performance overhead compared to native testing frameworks like Espresso.

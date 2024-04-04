@@ -15,7 +15,7 @@ tags:
 ---
 # Comparing Mobile Automation Frameworks: Espresso (Kotlin) vs. Appium (Java)
 
-Among the myriad of mobile automation frameworks available, Espresso and Appium stand out as popular choices for mobile testing on Android. In this post, I'll dive deeper into their features, pros and cons, and considerations around debugging, CI/CD integration, and community support.
+Among the myriad of mobile automation frameworks available, Espresso and Appium stand out as popular choices for mobile testing on Android. In this post, I'll dive deeper into their features, pros and cons, and considerations around debugging, CI/CD integration, and community support. I have hands on experience working both of these frameworks in my previous roles and below I go through my analysis. 
 
 ## Espresso (Kotlin)
 
@@ -76,6 +76,8 @@ Appium is a versatile cross-platform automation framework for mobile testing, su
 - **Performance Overhead:** Due to its cross-platform nature and reliance on the WebDriver protocol, Appium tests may have a higher performance overhead compared to native testing frameworks like Espresso.
   
 - **Complexity:** Appium's architecture and setup can be more complex compared to native testing frameworks, especially for beginners.
+
+- **Time :** The biggest disadvantage of Appium is the speed of longer test scenarios and some difficulties in locating elements.
 
 ### Debugging:
 

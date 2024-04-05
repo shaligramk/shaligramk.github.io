@@ -4,7 +4,7 @@ permalink: /about/
 author_profile: false
 ---
 
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/avatar2.png){: .align-right}
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/images/avatar.jpg){: .align-right}
 Hey everyone!
 
 I'm Shawn and I currently work as a Quality Engineering Manager at Cash App in Block. My job responsibilities mostly cover automation, testing and exploratory testing on mobile platforms domain.

@@ -7,7 +7,7 @@ header:
     image: /assets/images/uiautomator_page_object_thumbnail.png
     overlay_image: /assets/images/uiautomator_page_object.jpg
     overlay_filter: 0.25
-date: 2024-04-02
+date: 2024-04-04
 toc: true
 toc_label: "Comparing Mobile Automation Framework"
 tags:
@@ -113,4 +113,4 @@ When working with Espresso and Appium, there are several tradeoffs to consider:
 
 ### Conclusion
 
-In general, if you are working on Android-specific projects and have access to the app's source code, Espresso may be the preferred choice for UI testing due to its speed, reliability, and integration with the Android ecosystem. However, if you need to test both Android and iOS apps, or if you are performing black-box testing without access to the source code, Appium may be a more suitable choice, despite its potential trade-offs in terms of test execution speed and reliability.
+If you are working on Android-specific projects and have access to the app's source code, Espresso may be the preferred choice for UI testing due to its speed, reliability, and integration with the Android ecosystem. However, if you need to test both Android and iOS apps, or if you are performing black-box testing without access to the source code, Appium may be a more suitable choice, despite its potential trade-offs in terms of test execution speed and reliability.

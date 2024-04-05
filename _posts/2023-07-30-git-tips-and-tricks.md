@@ -13,6 +13,8 @@ toc_label: "Git Tips and Tricks"
 tags:
   - git
 ---
+## Git Tips and Tricks
+
 This is going to be a small cheatsheet for `git` commands that I find myself using *most* of the time. In this blog post, we'll explore some essential Git tips and tricks that will help you streamline your QA automation process.
 
 ## 1. **Creating and Cloning Repositories**

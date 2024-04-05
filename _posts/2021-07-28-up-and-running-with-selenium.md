@@ -13,6 +13,8 @@ toc_label: "Up and Running with Selenium"
 tags:
   - selenium
 ---
+## Up and Running with Selenium
+
 This post covers a basic implementation of a Selenium testing framework from the ground up using python. It includes example code, in addition to a number of links that were useful when developing my framework.
 
 ## Design

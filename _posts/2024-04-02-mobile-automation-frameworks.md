@@ -13,7 +13,7 @@ toc_label: "Comparing Mobile Automation Frameworks"
 tags:
   - ios, android
 ---
-# Comparing Espresso v Appium Test Frameworks
+## Comparing Espresso v Appium Test Frameworks
 
 Among the myriad of mobile automation frameworks available, Espresso and Appium stand out as popular choices for mobile testing on Android. In this post, I'll dive deeper into their features, pros and cons, and considerations around debugging, CI/CD integration, and community support. I have hands on experience working both of these frameworks in my previous roles and below I go through my analysis. 
 

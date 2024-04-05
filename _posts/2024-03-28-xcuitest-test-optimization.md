@@ -13,7 +13,7 @@ toc_label: "XCUI Test Optimization"
 tags:
   - ios
 ---
-# Tips and Tools for Accelerating XCUITest Tests
+## Tips and Tools for Accelerating XCUITest Tests
 
 XCUITest is a powerful framework for automating user interface testing in iOS apps. However, as your test suite grows, so does the time it takes to run your tests. Slow test execution can hinder your development workflow and reduce productivity. In this post, I'll share explore some tips and tools to help make your iOS tests faster and more efficient.
 

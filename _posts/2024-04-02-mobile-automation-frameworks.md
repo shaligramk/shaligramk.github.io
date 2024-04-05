@@ -20,6 +20,7 @@ Among the myriad of mobile automation frameworks available, Espresso and Appium 
 
 ### Appium Framework Architecture
 
+```mermaid
 +---------------+
 |    Client     |
 +---------------+
@@ -43,6 +44,7 @@ Among the myriad of mobile automation frameworks available, Espresso and Appium 
 |   App Under   |
 |     Test      |
 +---------------+
+```
 
 The Appium framework follows a client-server architecture:
 
@@ -61,6 +63,7 @@ During the test execution, the client sends commands (e.g., tap, swipe, getText)
 
 2. Espresso Framework Architecture
 
+```mermaid
 +---------------+
 |     Test      |
 |    Runner     |
@@ -80,6 +83,7 @@ During the test execution, the client sends commands (e.g., tap, swipe, getText)
 |   App Under   |
 |     Test      |
 +---------------+
+```
 
 The Espresso framework is designed specifically for Android UI testing and has a simpler architecture:
 

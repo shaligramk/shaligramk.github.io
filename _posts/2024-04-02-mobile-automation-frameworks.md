@@ -17,84 +17,96 @@ tags:
 
 Among the myriad of mobile automation frameworks available, Espresso and Appium stand out as popular choices for mobile testing on Android. In this post, I'll dive deeper into their features, pros and cons, and considerations around debugging, CI/CD integration, and community support. I have hands on experience working both of these frameworks in my previous roles and below I go through my analysis. 
 
-## Espresso (Kotlin)
 
-Espresso is a powerful testing framework designed for Android app testing. It provides a concise and intuitive API for writing UI tests, tightly integrated within the Android ecosystem.
+### Appium Framework Architecture
 
-### Features:
++---------------+
+|    Client     |
++---------------+
+        |
+        | WebDriver Protocol (JSON Wire Protocol)
+        |
++---------------+
+|   Appium      |
+|   Server      |
++---------------+
+        |
+        | Bootstrap or UIAutomation (iOS)
+        | UIAutomator or Espresso (Android)
+        |
++---------------+
+|   Mobile OS   |
+|  (iOS/Android)|
++---------------+
+        |
++---------------+
+|   App Under   |
+|     Test      |
++---------------+
 
-- **Kotlin Support:** Espresso seamlessly integrates with Kotlin, enabling developers to leverage Kotlin's concise syntax and powerful features for writing expressive tests.
-  
-- **Fluent API:** Espresso offers a fluent API, making it easy to express complex interactions with UI elements in a concise and readable manner.
+The Appium framework follows a client-server architecture:
 
-### Pros:
+- **Client:** The client is the test script written in a programming language like Java, Python, or Ruby. It sends commands to the Appium server using the WebDriver protocol (also known as the JSON Wire Protocol).
 
-- **Native Integration:** Espresso integrates tightly with the Android testing framework, allowing for seamless interaction with UI components and access to platform-specific features. Espresso test is within the application and it is aware of all the layers of the application. So you can mock certain layers of app, more like a white-box testing
-  
-- **Speed:** Tests written in Espresso are known for their speed and efficiency, as they interact directly with UI components.
+- **Appium Server:** The Appium server acts as a middleware between the client and the mobile device or emulator/simulator. It receives commands from the client and translates them into corresponding actions on the target device.
 
-- **The Shifting:** will be very much useful as Espresso supports testing activities outside the app like camera, browser and dialer etc which appium does not support.
+- **Mobile OS:** On the mobile device side, Appium leverages different automation frameworks depending on the platform:
 
-- **Toast:** Espresso you can test toast message, auto complete and dialogs which are outside app.
-  
-### Cons:
+    - For iOS, it uses either the Bootstrap or UIAutomation frameworks.
+    - For Android, it uses either the UIAutomator or Espresso frameworks.
 
-- **Platform Limitation:** Espresso is limited to testing Android applications, making it unsuitable for cross-platform projects or iOS testing.
+- **App Under Test:** The mobile app being tested is installed and running on the target device or emulator/simulator.
+During the test execution, the client sends commands (e.g., tap, swipe, getText) to the Appium server, which then communicates with the respective automation framework on the target device. The automation framework interacts with the app under test and performs the requested actions or retrieves the desired information.
 
-### Debugging:
 
-Debugging with Espresso can be straightforward, as it integrates seamlessly with Android Studio's debugging tools. Developers can set breakpoints, inspect variables, and step through test code just like they would with application code.
+2. Espresso Framework Architecture
 
-### CI/CD Integration:
++---------------+
+|     Test      |
+|    Runner     |
++---------------+
+        |
++---------------+
+|   Espresso    |
+|    Library    |
++---------------+
+        |
++---------------+
+|   Android     |
+|Instrumentation|
++---------------+
+        |
++---------------+
+|   App Under   |
+|     Test      |
++---------------+
 
-Espresso tests can be easily integrated into CI/CD pipelines using tools like Jenkins, TeamCity, or GitLab CI. Android Studio provides built-in support for running Espresso tests as part of continuous integration workflows.
+The Espresso framework is designed specifically for Android UI testing and has a simpler architecture:
 
-### Community Support:
+- **Test Runner:** The test runner is responsible for executing the Espresso tests. It can be either the Android JUnit runner or the Android Test Orchestrator.
 
-Espresso benefits from being part of the larger Android development ecosystem, with extensive documentation, community forums, and resources available online. Developers can find plenty of tutorials, sample projects, and support from fellow Android developers.
+- **Espresso Library:** The Espresso library provides a set of APIs and utilities for writing UI tests. It includes features like view matchers, actions, assertions, and synchronization mechanisms.
 
-## Appium (Java)
+- **Android Instrumentation:** Espresso tests run within the Android Instrumentation framework, which allows the tests to interact with the app under test while it is running.
 
-Appium is a versatile cross-platform automation framework for mobile testing, supporting both iOS and Android. It leverages the WebDriver protocol for testing mobile apps, making it compatible with a wide range of programming languages.
+- **App Under Test:** The Android app being tested is installed and running on the device or emulator.
 
-### Features:
+### Tradeoffs
 
-- **Java Support:** Appium has extensive support for Java, allowing developers to write tests using Java's robust ecosystem and libraries.
-  
-- **Cross-Platform Compatibility:** Appium enables testing of both iOS and Android apps using a unified API, providing flexibility for teams working on cross-platform projects. Appium tests are black-box, tests know only the UI layer of the app. Main advantage is for cross-platform testing.
+When working with Espresso and Appium, there are several tradeoffs to consider:
 
-### Pros:
+- **Platform Support:** Espresso is designed specifically for Android, while Appium supports both Android and iOS platforms. Espresso seamlessly integrates with Kotlin, enabling developers to leverage Kotlin's concise syntax and powerful features for writing expressive tests. Appium allows for testing both iOS and Android applications using a single codebase, making it ideal for teams working on hybrid or cross-platform projects.
 
-- **Cross-Platform Support:** Appium allows for testing both iOS and Android applications using a single codebase, making it ideal for teams working on hybrid or cross-platform projects.
-  
-- **Flexibility:** Appium tests can be written in various programming languages, offering flexibility for teams with diverse skill sets.
+- **Test Execution Speed:**  Espresso tests generally run faster than Appium tests, as Espresso is tightly integrated with the Android platform and can leverage the Android Instrumentation framework.
 
-- **Code Sharing:** Android and iOS tests can share classes for helper methods and configuration setup. While they may have common test logic at a higher level, they might differ in implementation details at a lower level. For instance, copying a page object class and adjusting locators may suffice to adapt it to the other platform.
+- **Test Reliability:** Espresso tests are considered more reliable and stable, as they are designed to run on the same process as the app under test. Appium tests, on the other hand, interact with the app through the WebDriver protocol, which can be more prone to flakiness or instability.
 
-### Cons:
+- **Test Complexity:** Espresso tests are typically easier to write and understand, especially for developers familiar with Android development. Appium tests can be more complex, as they need to handle various device configurations and platform differences.
 
-- **Performance Overhead:** Due to its cross-platform nature and reliance on the WebDriver protocol, Appium tests may have a higher performance overhead compared to native testing frameworks like Espresso.
-  
-- **Complexity:** Appium's architecture and setup can be more complex compared to native testing frameworks, especially for beginners.
+- **Test Setup and Configuration:** Espresso tests are generally easier to set up and configure, as they are part of the Android development ecosystem. Appium tests require additional setup and configuration, such as setting up the Appium server and configuring desired capabilities.
 
-- **Time :** The biggest disadvantage of Appium is the speed of longer test scenarios and some difficulties in locating elements.
+- **Testing Approach:** Espresso is designed for white-box testing, where you have access to the app's source code and internal components. Appium is better suited for black-box testing, where you interact with the app as an end-user without access to the source code.
 
-### Debugging:
+### Conclusion
 
-Debugging Appium tests can be more challenging compared to native testing frameworks. Since Appium interacts with the application through the WebDriver protocol, debugging requires understanding how WebDriver communicates with the app and potentially involves more layers of abstraction.
-
-### CI/CD Integration:
-
-Appium tests can be integrated into CI/CD pipelines using popular CI/CD providers like Jenkins, Travis CI, or CircleCI. However, setting up and configuring Appium tests in a CI/CD environment may require additional effort due to the complexity of the setup.
-
-### Community Support:
-
-Appium benefits from a large and active community, with contributors and users from across the globe. The project has extensive documentation, forums, and community-driven resources available, providing support for both beginners and advanced users.
-
-## Conclusion
-
-Both Espresso in Kotlin and Appium in Java are powerful tools for mobile automation testing, each with its strengths and weaknesses. When choosing between them, consider factors such as the nature of the app, platform requirements, team expertise, and testing objectives. 
-
-Espresso excels in native Android testing, offering speed, tight integration with Android Studio, and access to platform-specific features. On the other hand, Appium provides cross-platform compatibility, flexibility in choice of programming language, easier to setup with React, and a large community of users and contributors. 
-
-Ultimately, the choice between Espresso and Appium depends on your specific project requirements and priorities. Whether you prioritize native testing capabilities, cross-platform support, or ease of integration with CI/CD pipelines, both frameworks offer valuable solutions for mobile automation testing.
+In general, if you are working on Android-specific projects and have access to the app's source code, Espresso may be the preferred choice for UI testing due to its speed, reliability, and integration with the Android ecosystem. However, if you need to test both Android and iOS apps, or if you are performing black-box testing without access to the source code, Appium may be a more suitable choice, despite its potential trade-offs in terms of test execution speed and reliability.

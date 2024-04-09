@@ -60,7 +60,7 @@ The Appium framework follows a client-server architecture:
 During the test execution, the client sends commands (e.g., tap, swipe, getText) to the Appium server, which then communicates with the respective automation framework on the target device. The automation framework interacts with the app under test and performs the requested actions or retrieves the desired information.
 
 
-2. Espresso Framework Architecture
+### Espresso Framework Architecture
 
 ```mermaid
 +---------------+

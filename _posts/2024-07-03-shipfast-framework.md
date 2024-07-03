@@ -7,7 +7,7 @@ header:
     image: /assets/images/uiautomator_page_object_thumbnail.png
     overlay_image: /assets/images/uiautomator_page_object.jpg
     overlay_filter: 0.25
-date: 2024-04-04
+date: 2024-07-03
 toc: true
 toc_label: "Accelerate Your Development with ShipFast"
 tags:

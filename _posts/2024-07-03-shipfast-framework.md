@@ -13,6 +13,7 @@ toc_label: "Accelerate Your Development with ShipFast"
 tags:
   - nextjs, shipfast
 ---
+
 ## Accelerate Your Development with ShipFast
 
 [ShipFast](https://shipfa.st/?via=shawn) is a NextJS template developed by solopreneur Marc Lou. The purpose of ShipFast is similar to the purpose of UI libraries: create some generalized, pre-packaged code that makes it easier for folks to launch their applications faster and with less hassle.

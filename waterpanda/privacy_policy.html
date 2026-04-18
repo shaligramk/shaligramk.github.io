@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Water Panda</title>
+  <style>
+    :root {
+      --primary: #0D9488;
+      --primary-dark: #0F766E;
+      --primary-surface: #F0FDFB;
+      --text: #0B1514;
+      --text-muted: #52706D;
+      --border: #E4EAEA;
+      --bg: #F7F8F9;
+      --surface: #ffffff;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .logo {
+      width: 48px;
+      height: 48px;
+      background: var(--primary);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+    }
+    .app-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.3px;
+    }
+    .app-tagline {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: var(--primary-surface);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .hero p {
+      color: var(--text-muted);
+      font-size: 16px;
+      max-width: 480px;
+      margin: 0 auto 20px;
+    }
+    .effective-badge {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* ── Summary cards ── */
+    .summary-grid {
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .summary-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .summary-card .icon { font-size: 24px; }
+    .summary-card .label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .summary-card .value {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ── Main content ── */
+    .content {
+      max-width: 720px;
+      margin: 0 auto 64px;
+      padding: 0 24px;
+    }
+
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.2px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section h2 .num {
+      width: 28px;
+      height: 28px;
+      background: var(--primary);
+      color: white;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .section p {
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .section p:last-child { margin-bottom: 0; }
+    .section ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .section ul li {
+      color: var(--text-muted);
+      padding: 6px 0 6px 24px;
+      position: relative;
+      font-size: 15px;
+    }
+    .section ul li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .highlight-box {
+      background: var(--primary-surface);
+      border: 1px solid #CCFBF1;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-size: 14px;
+      color: var(--primary-dark);
+      font-weight: 500;
+    }
+    .highlight-box strong { color: var(--primary-dark); }
+
+    /* ── Contact ── */
+    .contact-section {
+      background: var(--primary);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-section h2 {
+      color: white;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .contact-section p { color: rgba(255,255,255,0.8); margin-bottom: 20px; }
+    .contact-link {
+      display: inline-block;
+      background: white;
+      color: var(--primary);
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--primary); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 26px; }
+      .section { padding: 24px 20px; }
+      .contact-section { padding: 24px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="header-inner">
+    <div class="logo">🐼</div>
+    <div>
+      <div class="app-name">Water Panda</div>
+      <div class="app-tagline">Sip. Grow. Thrive.</div>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<div class="hero">
+  <h1>Privacy Policy</h1>
+  <p>
+    We built Water Panda to be privacy-first. Here is exactly what we
+    collect, why, and how you stay in control.
+  </p>
+  <span class="effective-badge">Effective Date: January 1, 2025 &nbsp;·&nbsp; Last Updated: April 2025</span>
+</div>
+
+<!-- TL;DR summary cards -->
+<div class="summary-grid">
+  <div class="summary-card">
+    <span class="icon">📴</span>
+    <span class="label">Works Offline</span>
+    <span class="value">All core features work without internet. Your data stays on your device by default.</span>
+  </div>
+  <div class="summary-card">
+    <span class="icon">🚫</span>
+    <span class="label">No Account Required</span>
+    <span class="value">You never have to create an account or give us your email to use the app.</span>
+  </div>
+  <div class="summary-card">
+    <span class="icon">🔒</span>
+    <span class="label">Your Data is Yours</span>
+    <span class="value">We don't sell your personal information. Ever.</span>
+  </div>
+  <div class="summary-card">
+    <span class="icon">📢</span>
+    <span class="label">Ads Supported</span>
+    <span class="value">The free app is supported by Google AdMob ads, which may use device identifiers.</span>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+  <!-- 1. Who We Are -->
+  <div class="section">
+    <h2><span class="num">1</span>Who We Are</h2>
+    <p>
+      Water Panda ("we", "our", "us") is an independent mobile application for
+      iOS and Android. This Privacy Policy explains how we handle information
+      when you use our app. By using Water Panda, you agree to the practices
+      described here.
+    </p>
+    <p>
+      If you have questions, contact us at:
+      <strong>privacy@waterpanda.app</strong>
+    </p>
+  </div>
+
+  <!-- 2. Information We Collect -->
+  <div class="section">
+    <h2><span class="num">2</span>Information We Collect</h2>
+
+    <p><strong>Information you provide directly:</strong></p>
+    <ul>
+      <li>Body weight and activity level (used only to calculate your hydration goal)</li>
+      <li>Wake and sleep times (used only to schedule reminders)</li>
+      <li>Water intake logs and beverage type</li>
+      <li>If you create an account: your email address and display name</li>
+      <li>Optional: a display name or nickname for your panda companion</li>
+    </ul>
+
+    <p style="margin-top:16px"><strong>Information collected automatically:</strong></p>
+    <ul>
+      <li>A randomly generated local device ID (not linked to your identity) used to sync your data if you use the app on multiple devices</li>
+      <li>App usage patterns (streak length, goal completion) stored locally on your device</li>
+    </ul>
+
+    <div class="highlight-box">
+      <strong>No account, no collection.</strong> If you use Water Panda without creating an account, all your hydration data is stored exclusively on your device using local SQLite storage. Nothing is uploaded to our servers.
+    </div>
+  </div>
+
+  <!-- 3. Advertising (AdMob) -->
+  <div class="section">
+    <h2><span class="num">3</span>Advertising — Google AdMob</h2>
+    <p>
+      Water Panda is free and supported by ads provided by <strong>Google AdMob</strong>.
+      To show relevant ads, Google may collect and use certain device information.
+    </p>
+    <p>What AdMob may collect:</p>
+    <ul>
+      <li>Advertising identifier (IDFA on iOS, GAID on Android)</li>
+      <li>IP address and approximate location</li>
+      <li>Device model, OS version, and language</li>
+      <li>Ad interaction data (impressions, clicks)</li>
+    </ul>
+    <p style="margin-top:12px">
+      On iOS 14.5 and later, we ask for your permission before allowing AdMob
+      to access your advertising identifier via the
+      <strong>App Tracking Transparency (ATT)</strong> dialog. You can say no —
+      the app works fully either way, and you will still see ads (just not
+      personalised ones).
+    </p>
+    <p>
+      You can opt out of personalised ads at any time:
+    </p>
+    <ul>
+      <li>iOS: Settings → Privacy & Security → Tracking → Water Panda</li>
+      <li>Android: Settings → Google → Ads → Delete advertising ID</li>
+      <li>
+        Google's privacy policy:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+          policies.google.com/privacy
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 4. Account & Cloud Sync (Optional) -->
+  <div class="section">
+    <h2><span class="num">4</span>Account &amp; Cloud Sync (Optional)</h2>
+    <p>
+      If you choose to create an account, your hydration logs, goals, and
+      streak data are synced to our secure cloud backend powered by
+      <strong>Supabase</strong> (hosted on AWS in the United States).
+    </p>
+    <ul>
+      <li>We store your email, hashed password, and hydration data</li>
+      <li>Data is encrypted in transit (TLS) and at rest (AES-256)</li>
+      <li>You can delete your account and all associated data at any time from the Profile screen</li>
+      <li>We never share your account data with third parties for marketing</li>
+    </ul>
+    <p style="margin-top:12px">
+      Supabase privacy policy:
+      <a href="https://supabase.com/privacy" target="_blank" rel="noopener">
+        supabase.com/privacy
+      </a>
+    </p>
+  </div>
+
+  <!-- 5. Notifications -->
+  <div class="section">
+    <h2><span class="num">5</span>Notifications &amp; Reminders</h2>
+    <p>
+      Water Panda can send you local push notifications to remind you to drink
+      water. These reminders are scheduled entirely on your device — no
+      notification data is sent to our servers.
+    </p>
+    <ul>
+      <li>We ask for notification permission before sending any reminders</li>
+      <li>You can disable or customise reminders in the app's Settings screen</li>
+      <li>You can revoke notification permission at any time in your device Settings</li>
+    </ul>
+  </div>
+
+  <!-- 6. Data Sharing -->
+  <div class="section">
+    <h2><span class="num">6</span>How We Share Your Information</h2>
+    <p>We do <strong>not</strong> sell your personal data. We share information only in these limited cases:</p>
+    <ul>
+      <li><strong>Google AdMob</strong> — for showing ads (see section 3)</li>
+      <li><strong>Supabase</strong> — for cloud sync, only if you create an account (see section 4)</li>
+      <li><strong>Legal requirements</strong> — if required by law, court order, or to protect our rights</li>
+    </ul>
+    <div class="highlight-box">
+      We have no advertising partners, data brokers, or analytics SDKs beyond AdMob.
+    </div>
+  </div>
+
+  <!-- 7. Data Retention -->
+  <div class="section">
+    <h2><span class="num">7</span>Data Retention &amp; Deletion</h2>
+    <ul>
+      <li><strong>Local-only users:</strong> All data is on your device. Deleting the app deletes all data.</li>
+      <li><strong>Account users:</strong> Your data is retained until you delete your account. You can do this in Profile → Delete Account. We will permanently delete all your data within 30 days.</li>
+      <li><strong>AdMob data:</strong> Managed by Google per their retention policy. You can reset your advertising ID at any time.</li>
+    </ul>
+  </div>
+
+  <!-- 8. Children -->
+  <div class="section">
+    <h2><span class="num">8</span>Children's Privacy</h2>
+    <p>
+      Water Panda is not directed to children under the age of 13 (or 16 in
+      the European Union). We do not knowingly collect personal information from
+      children. If you believe a child has provided us with personal information,
+      please contact us and we will delete it immediately.
+    </p>
+  </div>
+
+  <!-- 9. Your Rights -->
+  <div class="section">
+    <h2><span class="num">9</span>Your Rights</h2>
+    <p>Depending on your location, you may have the following rights:</p>
+    <ul>
+      <li><strong>Access:</strong> Request a copy of the data we hold about you</li>
+      <li><strong>Correction:</strong> Ask us to correct inaccurate data</li>
+      <li><strong>Deletion:</strong> Request deletion of your data ("right to be forgotten")</li>
+      <li><strong>Portability:</strong> Receive your data in a machine-readable format</li>
+      <li><strong>Objection:</strong> Object to processing of your data for advertising</li>
+      <li><strong>Withdraw consent:</strong> Withdraw tracking consent at any time via device Settings</li>
+    </ul>
+    <p style="margin-top:12px">
+      To exercise any of these rights, email us at <strong>privacy@waterpanda.app</strong>.
+      We will respond within 30 days.
+    </p>
+  </div>
+
+  <!-- 10. International Transfers -->
+  <div class="section">
+    <h2><span class="num">10</span>International Data Transfers</h2>
+    <p>
+      If you create an account, your data is stored on Supabase servers in the
+      United States. By creating an account, you consent to the transfer of your
+      data to the US. We rely on Standard Contractual Clauses for transfers from
+      the European Economic Area.
+    </p>
+    <p>
+      Local-only users have no data transferred internationally.
+    </p>
+  </div>
+
+  <!-- 11. Changes -->
+  <div class="section">
+    <h2><span class="num">11</span>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will notify you
+      of significant changes via an in-app notice or by updating the "Last Updated"
+      date at the top of this page. Continued use of the app after changes
+      constitutes acceptance of the updated policy.
+    </p>
+  </div>
+
+  <!-- Contact -->
+  <div class="contact-section">
+    <h2>Questions? We're here to help.</h2>
+    <p>
+      If you have any questions about this Privacy Policy or how we handle your
+      data, email us anytime.
+    </p>
+    <a class="contact-link" href="mailto:privacy@waterpanda.app">
+      privacy@waterpanda.app
+    </a>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>
+    &copy; 2025 Water Panda. All rights reserved. &nbsp;·&nbsp;
+    <a href="mailto:support@waterpanda.app">Support</a>
+    &nbsp;·&nbsp;
+    <a href="mailto:privacy@waterpanda.app">Privacy</a>
+  </p>
+  <p style="margin-top:8px; font-size:12px; color:#94AFAD;">
+    This policy applies to the Water Panda iOS and Android apps.
+  </p>
+</footer>
+
+</body>
+</html>

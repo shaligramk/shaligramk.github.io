@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support · WaterBloom</title>
+  <meta name="description" content="Get help with WaterBloom — hydration tracker with a panda companion." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #EBF5FD;
+      --surface:  #FFFFFF;
+      --accent:   #1E90E0;
+      --dark:     #122640;
+      --muted:    #5B7A96;
+      --border:   #D0E7F7;
+      --success:  #22C55E;
+      --radius:   16px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.7;
+      padding: 0 0 80px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--accent);
+      padding: 40px 24px 36px;
+      text-align: center;
+    }
+    header .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    header .logo-icon {
+      width: 44px; height: 44px;
+      background: rgba(255,255,255,0.25);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+    }
+    header .logo-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.3px;
+    }
+    header h1 {
+      margin-top: 20px;
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+    }
+    header p {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.80);
+    }
+
+    /* ── Content ── */
+    main {
+      max-width: 720px;
+      margin: 40px auto 0;
+      padding: 0 20px;
+    }
+
+    /* Contact CTA */
+    .contact-card {
+      background: var(--accent);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 24px;
+      color: #fff;
+    }
+    .contact-card h2 { font-size: 20px; color: #fff; margin-bottom: 8px; }
+    .contact-card p  { font-size: 15px; color: rgba(255,255,255,0.85); margin-bottom: 20px; }
+    .contact-card a {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+    .contact-card a:hover { opacity: 0.9; }
+
+    /* FAQ */
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    details summary {
+      padding: 20px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--dark);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      user-select: none;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after {
+      content: "+";
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+    details[open] summary::after { content: "−"; }
+
+    details[open] summary {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .answer {
+      padding: 18px 24px;
+      font-size: 15px;
+      color: #2C4A62;
+      line-height: 1.7;
+    }
+    .answer p { margin-bottom: 10px; }
+    .answer p:last-child { margin-bottom: 0; }
+    .answer ul { padding-left: 20px; margin: 8px 0; }
+    .answer ul li { margin-bottom: 6px; }
+    .answer strong { color: var(--dark); }
+
+    /* Section heading */
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 32px 0 12px;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="https://shaligramk.github.io/waterbloom/">
+    <div class="logo-icon">💧</div>
+    <span class="logo-name">WaterBloom</span>
+  </a>
+  <h1>Support</h1>
+  <p>We're here to help. Usually reply within 24 hours.</p>
+</header>
+
+<main>
+
+  <!-- Contact CTA -->
+  <div class="contact-card">
+    <h2>Get in Touch</h2>
+    <p>Can't find your answer below? Send us an email and we'll get back to you.</p>
+    <a href="mailto:support@waterbloom.app">support@waterbloom.app</a>
+  </div>
+
+  <!-- FAQ: Getting Started -->
+  <div class="section-title">Getting Started</div>
+
+  <div class="card">
+    <details>
+      <summary>Do I need to create an account?</summary>
+      <div class="answer">
+        <p>No — WaterBloom works completely without an account. In guest mode, all your data is stored privately on your device. No sign-up, no email required.</p>
+        <p>If you'd like to back up your progress or use the app on multiple devices, you can create a free account from the Profile tab at any time.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I set my daily water goal?</summary>
+      <div class="answer">
+        <p>Go to the <strong>Profile tab → Water Goal</strong>. You can enter a custom goal in milliliters, or let WaterBloom calculate one for you based on your body weight and activity level.</p>
+        <p>The default goal is 2,000 ml (2 liters), which is a standard recommendation for most adults.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I log a drink?</summary>
+      <div class="answer">
+        <p>From the Home screen, tap any cup size in the <strong>Quick Add</strong> row. Your drink is logged instantly.</p>
+        <p>You can also select a drink type (Water, Coffee, Tea, Juice, Sports Drink, etc.) using the selector chips below the panda before tapping a cup — this lets you track different beverages accurately.</p>
+        <p>To log a custom amount, scroll right in the Quick Add row and tap the custom cup button.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- FAQ: Panda -->
+  <div class="section-title">Your Panda</div>
+
+  <div class="card">
+    <details>
+      <summary>How does the panda work?</summary>
+      <div class="answer">
+        <p>Your panda fills up with water as you log drinks throughout the day. The fill level matches your progress toward your daily goal.</p>
+        <p>Keep hitting your daily goal consistently and your panda will level up and grow over time. The <strong>Panda tab</strong> shows your panda's current health, XP, level, and total water given.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>My panda looks sad or empty — why?</summary>
+      <div class="answer">
+        <p>Your panda's fill level reflects your hydration progress for today. At the start of each day it resets to empty.</p>
+        <p>Log some water and you'll see your panda fill up right away! The panda also responds to your streak — consistent days keep it happy.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- FAQ: Challenges & Streaks -->
+  <div class="section-title">Challenges &amp; Streaks</div>
+
+  <div class="card">
+    <details>
+      <summary>How do challenges work?</summary>
+      <div class="answer">
+        <p>The <strong>Goals tab</strong> shows all available challenges grouped by timeframe — Daily, Weekly, and Monthly.</p>
+        <ul>
+          <li><strong>Hit Today's Goal</strong> — reach your daily water target</li>
+          <li><strong>7-Day Streak</strong> — hit your goal seven days in a row</li>
+          <li><strong>Morning Routine</strong> — log a drink before 9 AM for 5 days</li>
+          <li><strong>Early Bird Week</strong> — log a drink before 8 AM every day this week</li>
+        </ul>
+        <p>Progress updates automatically as you log drinks.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Why did my streak reset?</summary>
+      <div class="answer">
+        <p>Streaks require you to hit your daily water goal every day. If you miss a day — meaning you didn't reach 100% of your goal before midnight — the streak resets to zero.</p>
+        <p>Tip: Set a reminder notification for the evening so you get a nudge if you're close but haven't hit your goal yet.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- FAQ: Reminders -->
+  <div class="section-title">Reminders</div>
+
+  <div class="card">
+    <details>
+      <summary>How do I set up drink reminders?</summary>
+      <div class="answer">
+        <p>Go to <strong>Profile → Notifications → Reminders → Manage</strong>. You can add reminders for specific times and customize which days of the week they apply to.</p>
+        <p>WaterBloom will ask for notification permission the first time you set a reminder. If you denied permission previously, enable it in <strong>Settings → Notifications → WaterBloom</strong>.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>I'm not receiving any notifications. What should I check?</summary>
+      <div class="answer">
+        <p>Try these steps in order:</p>
+        <ul>
+          <li>Open <strong>Settings → Notifications → WaterBloom</strong> and make sure notifications are enabled</li>
+          <li>Check that <strong>Do Not Disturb / Focus modes</strong> aren't blocking WaterBloom notifications</li>
+          <li>In the app, go to <strong>Profile → Reminders</strong> and verify at least one reminder is toggled on</li>
+          <li>Restart the app and then your device</li>
+        </ul>
+        <p>If reminders still aren't working, email us at <a href="mailto:support@waterbloom.app">support@waterbloom.app</a> and we'll help.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- FAQ: Data -->
+  <div class="section-title">Data &amp; Account</div>
+
+  <div class="card">
+    <details>
+      <summary>How do I back up my data?</summary>
+      <div class="answer">
+        <p>Create a free WaterBloom account from the <strong>Profile tab → Back Up Your Progress → Create Account</strong>. Once you're signed in, your logs, streaks, and panda progress automatically sync to the cloud.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I delete my account and data?</summary>
+      <div class="answer">
+        <p>Go to <strong>Profile → Delete Account</strong>. This will permanently delete your account and all associated data from our servers within 30 days.</p>
+        <p>If you're in guest mode, simply deleting the app removes all local data immediately.</p>
+        <p>You can also email <a href="mailto:support@waterbloom.app">support@waterbloom.app</a> to request manual deletion.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>I deleted the app and lost my data. Can I recover it?</summary>
+      <div class="answer">
+        <p>If you were in <strong>guest mode</strong>, data is stored only on your device and cannot be recovered after deletion — this is by design for privacy.</p>
+        <p>If you had a <strong>WaterBloom account</strong>, your data is safe. Re-install the app, sign back in, and everything will sync automatically.</p>
+        <p>This is why we recommend creating a free account if you want to protect your streak and history.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- FAQ: Ads -->
+  <div class="section-title">Ads &amp; Privacy</div>
+
+  <div class="card">
+    <details>
+      <summary>Why does WaterBloom show ads?</summary>
+      <div class="answer">
+        <p>WaterBloom is free to download and use. To keep it that way, we show a small banner ad at the bottom of the home screen. The ad is unobtrusive and never interrupts your experience.</p>
+        <p>We never sell your personal data. See our <a href="https://shaligramk.github.io/waterbloom/privacy/">Privacy Policy</a> for full details.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I opt out of personalized ads?</summary>
+      <div class="answer">
+        <p>You can change your ad tracking preference at any time in <strong>Settings → Privacy & Security → Tracking</strong>. Toggle off WaterBloom to opt out of personalized advertising. You'll still see ads, but they won't be based on your activity across other apps.</p>
+      </div>
+    </details>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2025 WaterBloom &nbsp;·&nbsp; <a href="mailto:support@waterbloom.app">support@waterbloom.app</a> &nbsp;·&nbsp; <a href="https://shaligramk.github.io/waterbloom/privacy/">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>

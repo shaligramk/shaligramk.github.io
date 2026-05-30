@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support · Scripture</title>
+  <meta name="description" content="Get help with Scripture — your daily Bible verse and prayer journal app." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #F9F5EF;
+      --surface:  #FFFFFF;
+      --accent:   #7B5E3A;
+      --accent2:  #B08D6A;
+      --dark:     #2C1D0E;
+      --muted:    #7A6654;
+      --border:   #E8DDD1;
+      --highlight:#F5EDE0;
+      --radius:   16px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.7;
+      padding: 0 0 80px;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(135deg, #8B6544, #5C3D1E);
+      padding: 44px 24px 40px;
+      text-align: center;
+    }
+    header .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    header .logo-icon {
+      width: 48px; height: 48px;
+      background: rgba(255,255,255,0.20);
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+    }
+    header .logo-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: -0.3px;
+    }
+    header h1 {
+      margin-top: 22px;
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+    }
+    header p {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.75);
+    }
+
+    /* ── Content ── */
+    main {
+      max-width: 720px;
+      margin: 40px auto 0;
+      padding: 0 20px;
+    }
+
+    /* Contact CTA */
+    .contact-card {
+      background: linear-gradient(135deg, #8B6544, #5C3D1E);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 28px;
+      color: #fff;
+    }
+    .contact-card h2 { font-size: 20px; color: #fff; margin-bottom: 8px; }
+    .contact-card p  { font-size: 15px; color: rgba(255,255,255,0.85); margin-bottom: 20px; }
+    .contact-card a {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+    .contact-card a:hover { opacity: 0.9; }
+
+    /* FAQ cards */
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    details summary {
+      padding: 20px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--dark);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      user-select: none;
+    }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after {
+      content: "+";
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+    details[open] summary::after { content: "−"; }
+    details[open] summary { border-bottom: 1px solid var(--border); }
+
+    .answer {
+      padding: 18px 24px;
+      font-size: 15px;
+      color: #4A3020;
+      line-height: 1.7;
+    }
+    .answer p { margin-bottom: 10px; }
+    .answer p:last-child { margin-bottom: 0; }
+    .answer ul { padding-left: 20px; margin: 8px 0; }
+    .answer ul li { margin-bottom: 6px; }
+    .answer strong { color: var(--dark); }
+    .answer a { color: var(--accent); }
+
+    /* Section heading */
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 32px 0 12px;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="https://shaligramk.github.io/scripture/">
+    <div class="logo-icon">✝️</div>
+    <span class="logo-name">Scripture</span>
+  </a>
+  <h1>Support</h1>
+  <p>We're here to help. Usually reply within 24 hours.</p>
+</header>
+
+<main>
+
+  <!-- Contact CTA -->
+  <div class="contact-card">
+    <h2>Get in Touch</h2>
+    <p>Can't find your answer below? Send us an email and we'll get back to you.</p>
+    <a href="mailto:kshitij.shaligram@gmail.com">kshitij.shaligram@gmail.com</a>
+  </div>
+
+  <!-- Getting Started -->
+  <div class="section-title">Getting Started</div>
+
+  <div class="card">
+    <details>
+      <summary>Do I need to create an account?</summary>
+      <div class="answer">
+        <p>No — Scripture works completely without an account. Everything is stored privately on your device. No sign-up, no email, no password required.</p>
+        <p>Just open the app and begin.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I personalize my daily verse?</summary>
+      <div class="answer">
+        <p>During onboarding, you'll be asked two questions:</p>
+        <ul>
+          <li><strong>Your faith journey</strong> — New to faith, Growing, Deepening, or Returning</li>
+          <li><strong>Your focus areas</strong> — Peace, Strength, Gratitude, Guidance, Healing, or Family</li>
+        </ul>
+        <p>Your daily verse is selected from a curated pool matched to your chosen focus areas. You can update these at any time in <strong>Settings → Faith Profile</strong>.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How does the daily verse work?</summary>
+      <div class="answer">
+        <p>Each day you open the app, a verse is presented from a curated collection matched to your focus areas. The verse changes daily and is consistent across all opens on the same day.</p>
+        <p>You can swipe through other verses in the <strong>Library tab</strong> or open the <strong>Reader</strong> by tapping "Read More" on the home screen.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Streaks -->
+  <div class="section-title">Streaks &amp; Milestones</div>
+
+  <div class="card">
+    <details>
+      <summary>How does the streak system work?</summary>
+      <div class="answer">
+        <p>Your streak grows by one each day you open the app. Open it every day and your flame grows. Miss a day and the streak resets to 1.</p>
+        <p>Your <strong>longest streak</strong> is always saved, even if your current streak resets.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>What are milestone badges?</summary>
+      <div class="answer">
+        <p>Milestone badges unlock based on your longest streak:</p>
+        <ul>
+          <li>🌱 <strong>Seedling</strong> — 3 days</li>
+          <li>🌿 <strong>First Week</strong> — 7 days</li>
+          <li>🌳 <strong>Two Weeks Strong</strong> — 14 days</li>
+          <li>🌟 <strong>Month of Faith</strong> — 30 days</li>
+          <li>💎 <strong>Diamond Devotion</strong> — 60 days</li>
+          <li>👑 <strong>Century of Grace</strong> — 100 days</li>
+        </ul>
+        <p>Tap the 🔥 streak chip on the home screen to see your progress.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Why did my streak reset?</summary>
+      <div class="answer">
+        <p>Streaks require you to open the app at least once per day. If you miss a day — meaning the app was not opened before midnight — the streak resets to 1 the next time you open it.</p>
+        <p>Set up a daily notification reminder to help you stay consistent. You can configure this in <strong>Settings → Daily Scripture</strong>.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Prayer Journal -->
+  <div class="section-title">Prayer Journal</div>
+
+  <div class="card">
+    <details>
+      <summary>How do I write a prayer?</summary>
+      <div class="answer">
+        <p>There are two ways to open the prayer journal:</p>
+        <ul>
+          <li>Tap the <strong>🙏 Pray</strong> quick action on the home screen</li>
+          <li>While reading a verse in the Reader, tap <strong>"Write a Prayer"</strong> at the bottom</li>
+        </ul>
+        <p>Each entry is linked to the verse you were reading, creating a meaningful record over time.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Can I delete a journal entry?</summary>
+      <div class="answer">
+        <p>Yes. Open the <strong>Prayer Journal</strong> screen, then swipe left on any entry to reveal the delete option. Confirm deletion in the prompt that appears.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>Are my prayers backed up anywhere?</summary>
+      <div class="answer">
+        <p>Journal entries are stored locally on your device only. They are not uploaded to any server. This means your prayers are completely private — only you can read them.</p>
+        <p>If you delete the app, your journal entries will be permanently removed. We recommend enabling iCloud backup for your device to protect local app data.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Notifications -->
+  <div class="section-title">Notifications</div>
+
+  <div class="card">
+    <details>
+      <summary>How do I set up my daily scripture reminder?</summary>
+      <div class="answer">
+        <p>During onboarding you'll be asked when you'd like your daily reminder — Morning (8 AM), Midday (12 PM), or Evening (7 PM).</p>
+        <p>You can change this at any time by going to <strong>Settings → Daily Scripture → Reminder time</strong>. Tap the time to open the time picker.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>I'm not receiving notifications. What should I check?</summary>
+      <div class="answer">
+        <p>Try these steps:</p>
+        <ul>
+          <li>Open <strong>Settings → Notifications → Scripture</strong> and make sure notifications are enabled</li>
+          <li>In the app, go to <strong>Settings</strong> and verify the <strong>Daily Scripture</strong> toggle is on</li>
+          <li>Check that <strong>Focus / Do Not Disturb</strong> modes aren't blocking the app</li>
+          <li>Force-quit the app and re-open it</li>
+          <li>Restart your device</li>
+        </ul>
+        <p>Still not working? Email us at <a href="mailto:kshitij.shaligram@gmail.com">kshitij.shaligram@gmail.com</a>.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Library & Verses -->
+  <div class="section-title">Library &amp; Verses</div>
+
+  <div class="card">
+    <details>
+      <summary>How do I save a verse as a favorite?</summary>
+      <div class="answer">
+        <p>On any verse card, tap the <strong>🔖 Save</strong> button at the bottom of the card. The button will fill in to confirm it's saved.</p>
+        <p>All your saved verses appear at the top of the <strong>Library tab</strong> under "Saved."</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I share a verse?</summary>
+      <div class="answer">
+        <p>Tap the <strong>↑ Share</strong> button on any verse card. This opens the standard iOS share sheet — you can share the verse text to Messages, WhatsApp, Instagram, copy it to clipboard, and more.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How many verses are in the app?</summary>
+      <div class="answer">
+        <p>Scripture includes 30 hand-curated Bible verses across 6 themes: Peace, Strength, Gratitude, Guidance, Healing, and Family. We plan to expand the library in future updates.</p>
+      </div>
+    </details>
+  </div>
+
+  <!-- Data -->
+  <div class="section-title">Data &amp; Privacy</div>
+
+  <div class="card">
+    <details>
+      <summary>What data does Scripture collect?</summary>
+      <div class="answer">
+        <p>Scripture collects no personal data. Everything — your journal entries, saved verses, streak, and preferences — lives only on your device. Nothing is sent to any server.</p>
+        <p>See our full <a href="https://shaligramk.github.io/scripture/privacy/">Privacy Policy</a> for details.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="card">
+    <details>
+      <summary>How do I delete all my data?</summary>
+      <div class="answer">
+        <p>Delete the app from your device. All locally stored data — journal entries, saved verses, streak, preferences — is permanently removed immediately.</p>
+        <p>Because no data is stored on our servers, there is nothing on our end to request deletion of.</p>
+      </div>
+    </details>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2025 Scripture &nbsp;·&nbsp; <a href="mailto:kshitij.shaligram@gmail.com">kshitij.shaligram@gmail.com</a> &nbsp;·&nbsp; <a href="https://shaligramk.github.io/scripture/privacy/">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
